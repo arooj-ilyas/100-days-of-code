@@ -5,7 +5,7 @@
 
 **Today's Progress**: Computational Thinking and Pair Programming
 
-**Thoughts:** I really enjoyed the pair programming task. Worked on a CSS Diner task with my partner to understand how selectors and attritubes work. I feel like I am slowly getting better at it and understanding how CSS works. I have never come across pair programming before and CSS is still very new for me, but I managed to recall some of what I had learnt in the introduction session with School of Code last week and applied it to the task.
+**Thoughts:** Worked on a CSS Diner task to play with the idea of Pair Programming and understand how selectors and attritubes work. I feel like I am slowly getting better at it and understanding how CSS works. I have never come across pair programming before and CSS is still very new for me, but I managed to recall some of what I had learnt in the introduction session with School of Code last week and applied it to the task.
 
 **Link to work:** https://flukeout.github.io/
 
