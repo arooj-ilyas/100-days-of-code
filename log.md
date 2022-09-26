@@ -1,7 +1,6 @@
 # 100 Days Of Code - Log
 
 ### Day 1: September 26, 2022
-##### (delete me or comment me out)
 
 **Today's Progress**: Computational Thinking and Pair Programming
 
