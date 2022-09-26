@@ -1,13 +1,13 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
+### Day 1: September 26, 2022
 ##### (delete me or comment me out)
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Computational Thinking and Pair Programming
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:** I really enjoyed the pair programming task. Worked on a CSS Diner task with my partner to understand how selectors and attritubes work. I feel like I am slowly getting better at it and understanding how CSS works. I have never come across pair programming before and CSS is still very new for me, but I managed to recall some of what I had learnt in the introduction session with School of Code last week and applied it to the task.
 
-**Link to work:** [Calculator App](http://www.example.com)
+**Link to work:** [Calculator App](http://www.example.com) https://flukeout.github.io/
 
 ### Day 0: February 30, 2016 (Example 2)
 ##### (delete me or comment me out)
