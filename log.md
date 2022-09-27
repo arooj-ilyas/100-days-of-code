@@ -9,7 +9,6 @@
 **Link to work:** https://flukeout.github.io/
 
 ### Day 2: September 27, 2022
-##### (delete me or comment me out)
 
 **Today's Progress**: Git Rhythm
 
