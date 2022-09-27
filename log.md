@@ -11,11 +11,11 @@
 ### Day 0: February 30, 2016 (Example 2)
 ##### (delete me or comment me out)
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Git Rhythm
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts**: I understood the functionality of GitHub better than I did before and became familiar with the idea of using git functions such as init, add, commit, status, log. I did struggle with using the git clone, push and pull but I think with practice I will get better at it. I feel quite good about using IDE's like VS Code and have managed to correctly set up bash on my mac.
 
-**Link(s) to work**: [Calculator App](http://www.example.com)
+**Link(s) to work**: https://github.com/arooj-ilyas/bc13_git_demo/commits/main
 
 
 ### Day 1: June 27, Monday
