@@ -35,3 +35,23 @@ else if (userPassword !== "myPassword1!") {
     alert("WRONG! Try again");
     count = count + 1; 
  }
+
+### Day 4: September 29, 2022
+
+**Today's Progress**: JavaScript (Objects & Arrays)
+
+**Thoughts** We began the day with recapping what we learnt yesterday about JS variables and functions. Then we went on to learn further about objects and arrays. Learnt how to select properties within objects and how to create, select and update arrays. Memorised that the correct formulation of a for loop is Declaration, Condition, Updater. Definitely still need more practice with creating for and while loops with arrays and objects inside. 
+
+**Code Snippet:**let index=0
+    
+while(index<englishNumbers.length){
+        console.log(englishNumbers[index])
+        index++;
+}
+
+let index=0
+    for (index=0;
+        index<englishNumbers.length;
+        index++){
+            console.log(englishNumbers[index])
+}
