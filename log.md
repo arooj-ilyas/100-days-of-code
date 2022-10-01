@@ -55,3 +55,24 @@ let index=0
         index++){
             console.log(englishNumbers[index])
 }
+
+### Day 5: September 30, 2022
+
+**Today's Progress**: First Hackathon! Create a rock, paper, scissors game
+
+**Thoughts** Today was a tough one! We had 7 tasks to work through to create a rock paper and scissors game with an user input function against a computer. The tasks included using Logic, creating a function with if statements, adding user input, prompts, alerts, using a Math.random() function for the computer player, creating a game loop with a while function to confirm it works and getting the player to input their name using a prompt. I only managed to complete 4/7 tasks but very proud of my efforts and ability to get that far considering I would not have even been able to write a single line of code last week!  
+
+**Code Snippet:**
+let player2="paper"
+let player1=prompt ("rock, paper or scissors")
+    
+function getWinner(player1, player2) {
+        if (player1 === "rock" && player2 === "paper"){ 
+        alert("Player2 wins!");
+        return -1;
+      } 
+
+// lots of other if statements of all possible outcomes
+
+let result = getWinner(player1, player2)
+    console.log(result)
