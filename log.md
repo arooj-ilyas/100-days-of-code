@@ -1,5 +1,7 @@
 # 100 Days Of Code - Log
 
+For the next 16 weeks I will be taking a course with the School of Code 5 days a week to become a full-stack software developer. In this log I am going to track concepts I will be learning, as well as writing down workshops I will be partaking in and code snippets/links to show my days work! 
+
 ### Day 1: September 26, 2022
 
 **Today's Progress**: Computational Thinking and Pair Programming
@@ -76,3 +78,9 @@ function getWinner(player1, player2) {
 
 let result = getWinner(player1, player2)
     console.log(result)
+
+### Day 6: October 1, 2022
+
+**Today's Progress**: Week recap & review
+
+**Thoughts** After a long week of learning a lot of new concepts with HTML, JavaScript and GitHub, I decided to spend today taking a bit of a break from learning anything new and instead spent the day recapping what I learnt this week before putting it into practice and attempting the remaining 3 tasks of the Hackathon. I reviewed what I learnt about objects, functions and arrays and how to create properties within objects and arrays. Also wanted to review that I fully understand how to clone down git repositorys and push/pull as that is going to be a vital part for the remainder of my School of Code course. 
