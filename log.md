@@ -84,3 +84,16 @@ let result = getWinner(player1, player2)
 **Today's Progress**: Week recap & review
 
 **Thoughts** After a long week of learning a lot of new concepts with HTML, JavaScript and GitHub, I decided to spend today taking a bit of a break from learning anything new and instead spent the day recapping what I learnt this week before putting it into practice and attempting the remaining 3 tasks of the Hackathon. I reviewed what I learnt about objects, functions and arrays and how to create properties within objects and arrays. Also wanted to review that I fully understand how to clone down git repositorys and push/pull as that is going to be a vital part for the remainder of my School of Code course. 
+
+### Day 7: October 2, 2022
+
+**Today's Progress**: Today I managed to get 70% through the FreeCodeCamp course for Basics of JavaScript, this helped me so much in terms of solidifying what I've learnt this week and really making sure I fully comprehend the basics so that I can tackle the workshops next week with a better base understanding! Feel much more familiar now with create if/else if statements and different operators such as && and | |. Also learnt that there is a difference between the == (equality operator) and === (strict equlaity operator). Completed task 5/7 for the Hackathon and learnt more about math.Random and math.Floor to return random integers. 
+
+**Code Snippet:**
+let player2 = Math.floor(Math.random() * 3) 
+    if (player2===0) {
+        player2="rock"
+    } 
+ // repeated with if statements for outcome of scissors and paper
+ 
+ **Link(s) to work**: https://www.freecodecamp.org/fccc2498d63-cfb8-47dc-9a8a-e4da663cd78c
