@@ -26,6 +26,7 @@ For the next 16 weeks I will be taking a course with the School of Code 5 days a
 **Thoughts** Today I finally became much more familiar and used to the idea of Git Pull --> Git Add --> Git Commit --> Git Push. I was introduced to the basics of JavaScript, how it was formed and the 5 pillars of programming in JS. Worked in Pair Programming to link HTML and JS files in VS Code, then went on to complete workshops tackling creating variables, if and else-if loops. Found this quite hard and took quite a while to get my head around, definitely need further practice here.
 
 **Code Snippet:**
+```
 let userPassword=prompt("please enter password"); 
 
 if (userPassword === "myPassword1!") {
@@ -37,6 +38,7 @@ else if (userPassword !== "myPassword1!") {
     alert("WRONG! Try again");
     count = count + 1; 
  }
+ ```
 
 ### Day 4: September 29, 2022
 
