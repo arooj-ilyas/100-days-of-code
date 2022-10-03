@@ -47,7 +47,7 @@ else if (userPassword !== "myPassword1!") {
 **Thoughts** We began the day with recapping what we learnt yesterday about JS variables and functions. Then we went on to learn further about objects and arrays. Learnt how to select properties within objects and how to create, select and update arrays. Memorised that the correct formulation of a for loop is Declaration, Condition, Updater. Definitely still need more practice with creating for and while loops with arrays and objects inside. 
 
 **Code Snippet:**let index=0
-    
+   ``` 
 while(index<englishNumbers.length){
         console.log(englishNumbers[index])
         index++;
@@ -59,6 +59,7 @@ let index=0
         index++){
             console.log(englishNumbers[index])
 }
+```
 
 ### Day 5: September 30, 2022
 
@@ -67,6 +68,7 @@ let index=0
 **Thoughts** Today was a tough one! We had 7 tasks to work through to create a rock paper and scissors game with an user input function against a computer. The tasks included using Logic, creating a function with if statements, adding user input, prompts, alerts, using a Math.random() function for the computer player, creating a game loop with a while function to confirm it works and getting the player to input their name using a prompt. I only managed to complete 4/7 tasks but very proud of my efforts and ability to get that far considering I would not have even been able to write a single line of code last week!  
 
 **Code Snippet:**
+```
 let player2="paper"
 let player1=prompt ("rock, paper or scissors")
     
@@ -80,7 +82,7 @@ function getWinner(player1, player2) {
 
 let result = getWinner(player1, player2)
     console.log(result)
-
+```
 ### Day 6: October 1, 2022
 
 **Today's Progress**: Week recap & review
@@ -92,6 +94,7 @@ let result = getWinner(player1, player2)
 **Today's Progress**: Today I managed to get 70% through the FreeCodeCamp course for Basics of JavaScript, this helped me so much in terms of solidifying what I've learnt this week and really making sure I fully comprehend the basics so that I can tackle the workshops next week with a better base understanding! Feel much more familiar now with create if/else if statements and different operators such as && and | |. Also learnt that there is a difference between the == (equality operator) and === (strict equlaity operator). Completed task 5/7 for the Hackathon and learnt more about math.Random and math.Floor to return random integers. 
 
 **Code Snippet:**
+```
 let player2 = Math.floor(Math.random() * 3) 
     if (player2===0) {
         player2="rock"
@@ -99,3 +102,4 @@ let player2 = Math.floor(Math.random() * 3)
  // repeated with if statements for outcome of scissors and paper
  
  **Link(s) to work**: https://www.freecodecamp.org/fccc2498d63-cfb8-47dc-9a8a-e4da663cd78c
+```
