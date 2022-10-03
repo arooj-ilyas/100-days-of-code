@@ -110,4 +110,28 @@ let player2 = Math.floor(Math.random() * 3)
 **Today's Progress**: CodeWars and DOM's
 
 **Thoughts** Start of Week 2 with the School Of Code - began the day reflecting on last week with some retrospective feedback on pair programming using the 'Stop, Start, Continue' feedback format. Signed up for CodeWars and completed 2 Level 8 Kata's! Then went on to learn all abot DOM's and how to use JavaScript to manipulate a pages CSS and HTML. Familirised myself more with for loops and learnt about querySelector, querySelectorAll, .textContent, .appendChild and .removeChild
+
+**Code Snippet:**
+```
+let tips = [
+  "Keep your pennies is a glass jar",
+  "Save money buy not eating!",
+  "Don't let your partner know...",
+];
+
+//Task 4 - create an element
+// select the tips list, this is called "tips"
+    // create a variable for the existing list
+    // create a variable for the newTips which we will add onto the existing list
+// create a for loop to loop through the array of tips
+// add extra tips to the existing #tips-list using .textContent
+// append using .appendChild
+
+let ul = document.querySelector('#tips-list');
+let newTips = document.createElement('li');
+
+for (let i=0; i<tips.length; i++); {
+newTips.textContent = tips;
+ul.appendChild (newTips);
+}
 ```
