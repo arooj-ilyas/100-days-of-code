@@ -137,3 +137,27 @@ ul.appendChild (newTips);
 ```
 
 **Link to CodeWars profile**: https://www.codewars.com/users/arooj-ilyas
+
+### Day 9: October 4, 2022
+
+**Today's Progress**: DOM's - Event Listeners and Refactoring
+
+**Thoughts** Worked on building on yesterday's knowledge of DOM's using querySelector to add an event listener ontop of specific commands - e.g. clicking a specific button to trigger a new textContent. Grasped this pretty well and was able to work through a workshop involving addEventListener with the relative callback to various events ("keyup", "click", "shiftKey"). In the afternoon, worked on refactoring our rock, paper, scissors console application from Friday's hackathon and turn it into an interactive HTML page. This was a lot more difficult and time constraints meant I was unable to complete it. However, my partner and I worked really well in pair programming to break down and devise a plan for how to tackle the task. We managed to create variables with buttons using querySelector and functions for buttons with click eventListeners and handleClick callbacks for task 1. 
+
+**Code Snippet:**
+```
+const button = document.querySelector("#click-me");
+button.addEventListener("click", handleClick);
+
+//TASK 1 - created an if statement with event.shiftKey
+//Order of everything matters!
+
+function handleClick(event) {
+  // If clicked, console log you clicked me!
+  // If shift key pressed, change the inner text of the button to be NAILED IT 
+  console.log("You clicked me!")
+  if (event.shiftKey) {
+    button.textContent = ("NAILED IT!!!");
+  }
+}
+```
