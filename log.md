@@ -142,7 +142,7 @@ ul.appendChild (newTips);
 
 **Today's Progress**: DOM's - Event Listeners and Refactoring
 
-**Thoughts** Worked on building on yesterday's knowledge of DOM's using querySelector to add an event listener ontop of specific commands - e.g. clicking a specific button to trigger a new textContent. Grasped this pretty well and was able to work through a workshop involving addEventListener with the relative callback to various events ("keyup", "click", "shiftKey"). In the afternoon, worked on refactoring our rock, paper, scissors console application from Friday's hackathon and turn it into an interactive HTML page. This was a lot more difficult and time constraints meant I was unable to complete it. However, my partner and I worked really well in pair programming to break down and devise a plan for how to tackle the task. We managed to create variables with buttons using querySelector and functions for buttons with click eventListeners and handleClick callbacks for task 1. 
+**Thoughts:** Worked on building on yesterday's knowledge of DOM's using querySelector to add an event listener ontop of specific commands - e.g. clicking a specific button to trigger a new textContent. Grasped this pretty well and was able to work through a workshop involving addEventListener with the relative callback to various events ("keyup", "click", "shiftKey"). In the afternoon, worked on refactoring our rock, paper, scissors console application from Friday's hackathon and turn it into an interactive HTML page. This was a lot more difficult and time constraints meant I was unable to complete it. However, my partner and I worked really well in pair programming to break down and devise a plan for how to tackle the task. We managed to create variables with buttons using querySelector and functions for buttons with click eventListeners and handleClick callbacks for task 1. 
 
 **Code Snippet:**
 ```
@@ -159,5 +159,38 @@ function handleClick(event) {
   if (event.shiftKey) {
     button.textContent = ("NAILED IT!!!");
   }
+}
+```
+### Day 9: October 5, 2022
+
+**Today's Progress:** Async functions, setTimeout, setInterval, API's
+
+**Thoughts:** Focused on the difference between async and sync functions! It was so interesting today integrating what we learnt about asynchronisity with API's - a phrase I had always heard of but never truly knew what it entailed. Learning that an API is the connection between two compute rprogrammes and that fetch() is how we can access this resource from the internet. This fetch() command will send out a request and return a promise which is why we must always await a promise!! We can't know how long this will take so a setInterval won't't work, we must wrap it in an async function for it to be true. 
+
+**Code Snippet:**
+```
+async function getquote() {
+    let response = await fetch ("https://www.boredapi.com/api/activity");
+    let data = await response.json();
+    console.log(data);
+    h1.textContent = data.activity;
+    console.log(h1.textContent);
+    let h2 = document.querySelector("#type")
+    h2.textContent = data.type;
+}
+```
+### Day 10: October 6, 2022
+
+**Today's Progress:** Mindset, Navigating Data, Presenting Research
+
+**Thoughts:** Today was a mindset day, I took a personality test the night before and spoke amongst my peers of how various personality types can work together and potentially clash in working environments. Understanding these different personalities better, as well as understanding which category I fall into, will aid me in being able a better team player where I can allow my strength to shine in a working culture and also know when to ask for help. Completed a small workshop on navigating data and solidifed my understanding of selecting specific objects, properties and arrays from large data sets in DOM. Worked thereafter in a small group of 4 on individually researching the various devTools and presenting this in a short 4 minute presetnation. I definitely need to brush up on my public speaking skills but found the task a good way to bring me out of my comfort zone and learn something new. 
+
+**Code Snippet:**
+```
+// Task 1
+// Complete the function so it returns Liz Rios' favourite fruit
+
+function lizRiosFavFruit() {
+  return SOCBook.data.people[10].favoriteFruit;
 }
 ```
