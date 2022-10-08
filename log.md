@@ -161,7 +161,7 @@ function handleClick(event) {
   }
 }
 ```
-### Day 9: October 5, 2022
+### Day 10: October 5, 2022
 
 **Today's Progress:** Async functions, setTimeout, setInterval, API's
 
@@ -179,7 +179,7 @@ async function getquote() {
     h2.textContent = data.type;
 }
 ```
-### Day 10: October 6, 2022
+### Day 11: October 6, 2022
 
 **Today's Progress:** Mindset, Navigating Data, Presenting Research
 
@@ -192,5 +192,38 @@ async function getquote() {
 
 function lizRiosFavFruit() {
   return SOCBook.data.people[10].favoriteFruit;
+}
+```
+### Day 12: October 7, 2022
+
+**Today's Progress:** Fetch - Hackathon Fridays!! 
+
+**Thoughts:** Today we worked in pair programming on a Fetch Hackathon where my partner and I selected a trivia API to create our very own game! We created a plan of what functionalities it to include and filtered the API link to match this - e.g. a true/false quiz on the category of music at a medium difficulty level. We broke down what we wanted to do, made a checklist and then began coding. Within the code we utilised async functions, fetch, await, JSON, selecting and updating properties in an object such as textContent/innerHTML, eventListeners, callback functions, if statements and much more. We also went on to use our limited existing CSS knowledge to spruce up the look of the game after lots of googling. Definitely want to focus more on learning to clean code and still so many more JS functions to learn but really proud of how far I've come so far :)
+
+```
+//fetch the API from the internet
+let h2Question = document.querySelector("#TrivQuestion");
+let data
+
+//create an async function with a fetch() and JSON (make sure to await)
+async function getQuestion() {
+    const response = await fetch ("https://opentdb.com/api.php?amount=10&category=12&difficulty=medium&type=boolean");
+    data = await response.json();
+    // console.log(data);
+    let results = (data.results[0].question);
+    // console.log(results)
+    h2Question.innerHTML = results
+    return data
+    //console.log(h2Question.textContent);
+}
+
+//create a function for the buttons made which would have event listeners attached
+function handleClick(move) {
+    let correctAnswer = data.results[0].correct_answer;  
+
+    if (move === correctAnswer) {
+        p.textContent = "Correct Answer!!"
+    } else 
+        p.textContent = "Incorrect Answer!!"
 }
 ```
