@@ -200,6 +200,7 @@ function lizRiosFavFruit() {
 
 **Thoughts:** Today we worked in pair programming on a Fetch Hackathon where my partner and I selected a trivia API to create our very own game! We created a plan of what functionalities it to include and filtered the API link to match this - e.g. a true/false quiz on the category of music at a medium difficulty level. We broke down what we wanted to do, made a checklist and then began coding. Within the code we utilised async functions, fetch, await, JSON, selecting and updating properties in an object such as textContent/innerHTML, eventListeners, callback functions, if statements and much more. We also went on to use our limited existing CSS knowledge to spruce up the look of the game after lots of googling. Definitely want to focus more on learning to clean code and still so many more JS functions to learn but really proud of how far I've come so far :)
 
+**Code Snippet:**
 ```
 //fetch the API from the internet
 let h2Question = document.querySelector("#TrivQuestion");
@@ -227,3 +228,33 @@ function handleClick(move) {
         p.textContent = "Incorrect Answer!!"
 }
 ```
+### Day 13: October 8, 2022
+
+**Today's Progress:** TLC - Rest and Relax 🧖🏽‍♀️
+
+**Thoughts:** Today for me was all about learning the importance of balance. Wanted to take a break from my screen and resume my life outside of coding. Aim was to reset and recoup myself after an intense two weeks! I spent the day instead catching up with friends & family and organising through the documents on my computer - my desktop was starting to look worse for wear with the number of screenshots
+
+### Day 14: October 9, 2022
+
+**Today's Progress:** Week 2 recap tasks...
+
+**Thoughts:** Given 3 tasks to complete summarising what we went through in week 2 at the School of Code. Task 1 jogged my memory on creating functions and for loops - I found that I have still not fully grasped the concept of the different types of for loops and for loops in an array so definitely need to spend some extra time revising this. Task 2 and 3 went through using setInterval, fetching API's and manipulating the DOM with buttons and add eventListeners. 
+
+**Code Snippet:**
+```
+for (let celeb of celebs) {
+  if ((celeb[0].startsWith('A')) || (celeb[0].startsWith('E')) || (celeb[0].startsWith('I')) || (celeb[0].startsWith('O')) || (celeb[0].startsWith('U'))) {
+    vowelCelebs.push(celeb)
+
+    console.log(vowelCelebs)
+  }
+}
+```
+
+### Day 15: October 10, 2022
+
+**Today's Progress:** Week 3 commenses! Agenda: UI/UX
+
+**Thoughts:** Worked on a !Lightening challenge with the aim of creating the Google landing page 'blindly' coded to demonstrate the importance of feedback. Given I haven't looked at HTML in depth since day 2/3 at SoC, I felt a bit underprepared for this task - unsure of the differences between ```<div> and <section>``` tags so I definitely want to spend some time revisiting this on FCC!
+
+But, this task tied nicely into what we did for the remainder of the day - learning more about AGILE methodologies and the 4 values of AGILE: Individuals and Interactions, Working Software, Customer Collaboration, Responding to Change. Also learnt about the differences between UI and UX and that Good UI ≠ Good UX, but both are equally as important!! 
