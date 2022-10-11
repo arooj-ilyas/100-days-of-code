@@ -265,9 +265,9 @@ But, this task tied nicely into what we did for the remainder of the day - learn
 
 **Thoughts:** Learnt about the 5 pillars of Design Thinking today including Disney's Ideation Method for step 3 Ideate - dreamer, realist and critic. Began to understand that design is never a linear process. It is based on User Centred Design (USD) and thought of as an iterative process which allows one to understand their users,challenge assumptions, redefine problems and create innovative solutions which can be prototyped and tested.
 
-**Code Snippet:**
 In the afternoon, we went on to link what we learnt about UX and Design Thinking to play around with some CSS. Fun workshop where we reassigned existing CSS variables in the global scope using the :root Selector. After, we used our existing knowledge of manipulating DOM in JS to create a button function which could toggle a page to a 'dark-mode' when clicked. Then worked on some more level 8 kata's in CodeWars in my spare time where I learnt about the charAt() method. 
 
+**Code Snippet:**
 ```
 :root {
   --primary-colour: rgb(197,231,147);
