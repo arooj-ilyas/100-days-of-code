@@ -258,3 +258,22 @@ for (let celeb of celebs) {
 **Thoughts:** Worked on a !Lightening challenge with the aim of creating the Google landing page 'blindly' coded to demonstrate the importance of feedback. Given I haven't looked at HTML in depth since day 2/3 at SoC, I felt a bit underprepared for this task - unsure of the differences between ```<div> and <section>``` tags so I definitely want to spend some time revisiting this on FCC!
 
 But, this task tied nicely into what we did for the remainder of the day - learning more about AGILE methodologies and the 4 values of AGILE: Individuals and Interactions, Working Software, Customer Collaboration, Responding to Change. Also learnt about the differences between UI and UX and that Good UI ≠ Good UX, but both are equally as important!! 
+
+### Day 16: October 11, 2022
+
+**Today's Progress:** 5 Princples of Design Thinking & Intro to CSS 
+
+**Thoughts:** Learnt about the 5 pillars of Design Thinking today including Disney's Ideation Method for step 3 Ideate - dreamer, realist and critic. Began to understand that design is never a linear process. It is based on User Centred Design (USD) and thought of as an iterative process which allows one to understand their users,challenge assumptions, redefine problems and create innovative solutions which can be prototyped and tested.
+
+In the afternoon, we went on to link what we learnt about UX and Design Thinking to play around with some CSS. Fun workshop where we reassigned existing CSS variables in the global scope using the :root Selector. After, we used our existing knowledge of manipulating DOM in JS to create a button function which could toggle a page to a 'dark-mode' when clicked. Then worked on some more level 8 kata's in CodeWars in my spare time where I learnt about the charAt() method. 
+
+```
+:root {
+  --primary-colour: rgb(197,231,147);
+  --secondary-colour: antiquewhite;
+  --text-colour: black;
+  --header-size: 24px;
+  --main-text-size: 18px;
+  --border-radius: 10px;
+}
+```
