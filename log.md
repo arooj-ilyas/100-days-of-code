@@ -288,7 +288,7 @@ Learnt further about how CSS plays a vital role in UI and looked into CSS specif
 
 ### Day 18: October 13, 2022
 
-**Today's Progress:** ///
+**Today's Progress:** 
 
 **Thoughts:**
 
