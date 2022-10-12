@@ -263,10 +263,11 @@ But, this task tied nicely into what we did for the remainder of the day - learn
 
 **Today's Progress:** 5 Princples of Design Thinking & Intro to CSS 
 
-**Thoughts:** Learnt about the 5 pillars of Design Thinking today including Disney's Ideation Method for step 3 Ideate - dreamer, realist and critic. Began to understand that design is never a linear process. It is based on User Centred Design (USD) and thought of as an iterative process which allows one to understand their users,challenge assumptions, redefine problems and create innovative solutions which can be prototyped and tested.
+**Thoughts:** Learnt about the 5 pillars of Design Thinking today including Disney's Ideation Method for step 3 Ideate - dreamer, realist and critic. Began to understand that design is never a linear process. It is based on User Centred Design (USD) and thought of as an iterative process. We worked in our pairs to create our very own bootcamp idea and the UX jounrney we'd like our users to go through in the 'application' process.
 
 In the afternoon, we went on to link what we learnt about UX and Design Thinking to play around with some CSS. Fun workshop where we reassigned existing CSS variables in the global scope using the :root Selector. After, we used our existing knowledge of manipulating DOM in JS to create a button function which could toggle a page to a 'dark-mode' when clicked. Then worked on some more level 8 kata's in CodeWars in my spare time where I learnt about the charAt() method. 
 
+**Code Snippet:**
 ```
 :root {
   --primary-colour: rgb(197,231,147);
@@ -277,3 +278,18 @@ In the afternoon, we went on to link what we learnt about UX and Design Thinking
   --border-radius: 10px;
 }
 ```
+### Day 17: October 12, 2022
+
+**Today's Progress:** UI Design & CSS Organisation/Specificity
+
+**Thoughts:** Today we covered different principles and elements of UI Design; delved into colour theory and tools that exist to support UI developers with this such as Coolors and Palletton. Also looked into some other UI prototyping tools for wireframing such as Figma. Using the bootcamp my pair and I brainstormed in yesterday's UX session, we progressed to the UI stage and created low and high fidelity wireframes! 
+
+Learnt further about how CSS plays a vital role in UI and looked into CSS specificity and the specificity hierarchy. 
+
+### Day 18: October 13, 2022
+
+**Today's Progress:** ///
+
+**Thoughts:**
+
+**Code Snippet:**
