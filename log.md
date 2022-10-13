@@ -288,10 +288,35 @@ Learnt further about how CSS plays a vital role in UI and looked into CSS specif
 
 ### Day 18: October 13, 2022
 
-**Today's Progress:** 
+**Today's Progress:** Types of Listeners, CSS Flex, UX Tools! 
 
-**Thoughts:**
+**Thoughts:** Started the day with a nice mindset session on the types of listeners that exist and which one I am. Covered the 'Flex' propterty in CSS as well some new commands like justify-content allign-items, gap and flex direction. I still struggle with CSS and fully understanding all the possibilities, will probably spend some time covering this myself in FreeCodeCamp.
+
+Also spent some time in the afternoon researching UX tools such as empathy and journeys maps,  user interviews and information architechture (but user persona for my team specifically) and presenting our findings to the other teammates - slowly but surely starting to feel a bit more comfortable with public speaking 
 
 **Code Snippet:**
-=======
+```
+// CSS
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-itens: center;
+	background-color: brown;
+	height: 100vh;
+}
+
+main > div {
+	background-color: yellow;
+	heigh: 50px;
+	width: 50px;
+	border: 1px solid;
+}
+
+main > div.button {
+	display: flex;
+	justify-content: center;
+	allign-items: center;
+}
+```
 
