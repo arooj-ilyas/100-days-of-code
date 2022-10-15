@@ -290,9 +290,9 @@ Learnt further about how CSS plays a vital role in UI and looked into CSS specif
 
 **Today's Progress:** Types of Listeners, CSS Flex, UX Tools! 
 
-**Thoughts:** Started the day with a nice mindset session on the types of listeners that exist and which one I am. Covered the 'Flex' propterty in CSS as well some new commands like justify-content allign-items, gap and flex direction. I still struggle with CSS and fully understanding all the possibilities, will probably spend some time covering this myself in FreeCodeCamp.
+**Thoughts:** Started the day with a nice mindset session on the types of listeners that exist and which one I am. Covered the 'Flex' propterty in CSS as well as learning some new commands like justify-content allign-items, gap and flex direction. I still struggle with CSS and do not fully understanding all the possibilities. I will probably spend some time covering this myself in FreeCodeCamp.
 
-Also spent some time in the afternoon researching UX tools such as empathy and journeys maps,  user interviews and information architechture (but user persona for my team specifically) and presenting our findings to the other teammates - slowly but surely starting to feel a bit more comfortable with public speaking 
+Also spent some time in the afternoon researching UX tools such as empathy and journeys maps,  user interviews and information architechture (but user persona for my team specifically). Had a guest talk from Paavan over at AND Digital and presented our findings to the other teammates - slowly but surely starting to feel a bit more comfortable with public speaking 
 
 **Code Snippet:**
 ```
@@ -319,4 +319,30 @@ main > div.button {
 	allign-items: center;
 }
 ```
+### Day 19: October 14, 2022
 
+**Today's Progress:** Design - Hackathon Fridays!!
+
+**Thoughts:** Worked on a day-long Hackathon task of using the bootcamp idea my partner and I brainstormed earlier this week to go through the UI UX process of bringing the idea to fruition. We began with reviewing what we learnt this week and making a plan. The focus of this task was on planning, wireframing, designing and iterating before building the MVP in HTML and CSS.
+
+My partner and I were able to gather some of the tasks we completed earlier in the week and finalise them. By the end of the day we were able to present a brainstorming session in Miro, 2 user personas and user stories, chose a colour scheme, created a logo, finished the low-fidelity and high-fidelity wireframes of the landing page and user journey navigating through the page in Figma. We were also able to make a start to creating our landing page in HTML and CSS but kept the focus of the day on designing. We were able to Google and create the NavBar in CSS and use some of the CSS variable and specificity law's we learnt earlier in the week and apply it to our page. This is definitely a project I will continue to develop on the side as I progress through the course.
+
+**Code Snippet:**
+```
+:root {
+    --primary-color: #3E6896;
+    --secondary-color: #5F2C82;
+    --background-color: white;
+    --font-type: "Roboto",sans-serif;
+    --third-color: #D9D9D9;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:var(--background-color);
+    color: var(--primary-color);
+    font-family: var(--font-type);
+```
