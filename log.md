@@ -230,13 +230,13 @@ function handleClick(move) {
 ```
 ### Day 13: October 8, 2022
 
-**Today's Progress:** TLC - Rest and Relax 🧖🏽‍♀️
+**Today's Progress:** Saturday - Rest and Relax 🧖🏽‍♀️
 
 **Thoughts:** Today for me was all about learning the importance of balance. Wanted to take a break from my screen and resume my life outside of coding. Aim was to reset and recoup myself after an intense two weeks! I spent the day instead catching up with friends & family and organising through the documents on my computer - my desktop was starting to look worse for wear with the number of screenshots
 
 ### Day 14: October 9, 2022
 
-**Today's Progress:** Week 2 recap tasks...
+**Today's Progress:** Week 2 recap tasks... API's ✅
 
 **Thoughts:** Given 3 tasks to complete summarising what we went through in week 2 at the School of Code. Task 1 jogged my memory on creating functions and for loops - I found that I have still not fully grasped the concept of the different types of for loops and for loops in an array so definitely need to spend some extra time revising this. Task 2 and 3 went through using setInterval, fetching API's and manipulating the DOM with buttons and add eventListeners. 
 
@@ -346,10 +346,44 @@ My partner and I were able to gather some of the tasks we completed earlier in t
     color: var(--primary-color);
     font-family: var(--font-type);
 ```
-### Day 19: October 14, 2022
 
-**Today's Progress:** Design - Hackathon Fridays!!
+### Day 20: October 15, 2022
 
-**Thoughts:**
+**Today's Progress:** Saturday - Rest and Relax 🧖🏽‍♀️
+
+**Thoughts:** Taking a break from my screen and focusing on life otuside of code... although I did attempt 1 code war and levelled up to Level 7 KYU! 
 
 **Code Snippet:**
+```
+//8 kyu - The Feast of Many Beasts
+function feast(beast, dish) {
+  let beastFirstLetter = beast.charAt(0);
+  let beastLastLetter = beast.charAt(beast.length-1);
+  let dishFirstLetter = dish.charAt(0);
+  let dishLastLetter = dish.charAt(dish.length-1);
+
+  if (beastFirstLetter===dishFirstLetter && beastLastLetter===dishLastLetter) {
+    return true
+    } else
+      return false
+}
+```
+
+### Day 20: October 15, 2022
+
+**Today's Progress:** Week 3 Recap Task... Design ✅  
+
+**Thoughts:** Worked on a recap task today where I was asked to create the user persona, story and journey for individuals browsing my Portfolio site - then do some lo-fi and hi-fi wireframing! Really enjoyed exploring Figma some more, I can really see how powerful of a tool this could be in UX.
+
+In prep for next week where we tackle Node.Js, I read a 'Clean Code Guide' written by School of Code to familiarise myself with why coding practices are important, why formatting my code is important, and how I can achieve well formatted, easy to understand code.
+
+**Code Snippet:**
+```
+//Difference between 'Clean' and 'Messy' code
+
+//Messy
+let someStuff = ["Bananas", "Bread", "Cheese", "Crisps", "Milk"];
+
+//Clean
+let shoppingList = ["Bananas", "Bread", "Cheese", "Crisps", "Milk"];
+```
