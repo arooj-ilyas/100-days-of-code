@@ -346,3 +346,10 @@ My partner and I were able to gather some of the tasks we completed earlier in t
     color: var(--primary-color);
     font-family: var(--font-type);
 ```
+### Day 19: October 14, 2022
+
+**Today's Progress:** Design - Hackathon Fridays!!
+
+**Thoughts:**
+
+**Code Snippet:**
