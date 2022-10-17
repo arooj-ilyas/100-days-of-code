@@ -369,7 +369,7 @@ function feast(beast, dish) {
 }
 ```
 
-### Day 20: October 15, 2022
+### Day 21: October 15, 2022
 
 **Today's Progress:** Week 3 Recap Task... Design ✅  
 
@@ -386,4 +386,36 @@ let someStuff = ["Bananas", "Bread", "Cheese", "Crisps", "Milk"];
 
 //Clean
 let shoppingList = ["Bananas", "Bread", "Cheese", "Crisps", "Milk"];
+```
+
+### Day 22: October 15, 2022
+
+**Today's Progress:** Debugging and CJS in Node.js 
+
+**Thoughts:** Starting off the week going through the common practices when debugging, how to approach it and why readable code is so important. Then went on to learn about Node.JS and why we use it. Learnt about the v8 JavaSCript Engine,what modules are and the different systems that exist (CJS-Common JS and ESM-ECMA Script Module). Finished the day with a light workshop where we practiced importing and exporting modules in CJS. This is all still very new to me so definitely will require a lot more hands-on practice and additional research in my own time before I understand node.js and modules better!
+
+On a side note, I am still really struggling to get to grips with the difference between for... of and for... in loops, but hoping my mentor, some FreeCodeCamp practice and codewars can help me with this. 
+
+**Code Snippet:**
+```
+//in bootcamper.json seperate files has an array with bootcamper info
+//in bootcamper.js file, create the pickRandomBootcamper variable to select a random bootcamper
+
+function pickRandomBootcamper(bootcamperData) {
+    const random = Math.floor(Math.random()*2);
+    // console.log("test", bootcamperData);
+    
+		const user = bootcamperData[random];
+    // console.log(user);
+    
+		if (user.hasPets === false) {
+        return `Hi, my name is ${user.firstName} ${user.lastName}. I'm ${user.age} years old and I have no pets.`
+    }else{
+        return `Hi, my name is ${user.firstName} ${user.lastName}. I'm ${user.age} years old and I'm a pet owner.`
+    };
+
+module.exports = {pickRandomBootcamper};
+
+//in app.js file, require the export
+		const {pickRandomBootcamper} = require("./bootcamper.js");
 ```
