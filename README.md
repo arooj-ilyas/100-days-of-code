@@ -1,6 +1,6 @@
 # I've joined the #100DaysOfCode Challenge
 
-## ⬆️ Read through my log.md file for a breakdown of my 100 Days of Code journey and see what I worked on day by day! ⬆️
+## ⬆️ Read through my [log.md](log.md) file for a breakdown of my 100 Days of Code journey and see what I worked on day by day! ⬆️
 ## Contents
 
 * [Rules](rules.md)
