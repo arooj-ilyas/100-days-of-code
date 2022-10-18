@@ -369,7 +369,7 @@ function feast(beast, dish) {
 }
 ```
 
-### Day 21: October 15, 2022
+### Day 21: October 16, 2022
 
 **Today's Progress:** Week 3 Recap Task... Design ✅  
 
@@ -388,9 +388,9 @@ let someStuff = ["Bananas", "Bread", "Cheese", "Crisps", "Milk"];
 let shoppingList = ["Bananas", "Bread", "Cheese", "Crisps", "Milk"];
 ```
 
-### Day 22: October 15, 2022
+### Day 22: October 17, 2022
 
-**Today's Progress:** Debugging and CJS in Node.js 
+**Today's Progress:** Debugging, CJS in Node.js and Local Modules
 
 **Thoughts:** Starting off the week going through the common practices when debugging, how to approach it and why readable code is so important. Then went on to learn about Node.JS and why we use it. Learnt about the v8 JavaSCript Engine,what modules are and the different systems that exist (CJS-Common JS and ESM-ECMA Script Module). Finished the day with a light workshop where we practiced importing and exporting modules in CJS. This is all still very new to me so definitely will require a lot more hands-on practice and additional research in my own time before I understand node.js and modules better!
 
@@ -418,4 +418,44 @@ module.exports = {pickRandomBootcamper};
 
 //in app.js file, require the export
 		const {pickRandomBootcamper} = require("./bootcamper.js");
+```
+
+### Day 23: October 18, 2022
+
+**Today's Progress:** Node.js Core Modules and Third Party Modules
+
+**Thoughts:** Covered destructuing and how that can help when working in node.js. Afterwards I went on to learn more about the different types of modules that exist in node.js: Local, Core and Third Party. One workshop on Core Modules taught me how to Read and write to files using the fs module, use uuid (a third-party package) to generate unique ids and serialize/deserialize data using the JSON.parse and JSON.stringify methods. Second workshop on Third Party Modules gave us an intro to Express, use NPM init and set up our own local server! 
+
+On the side I am continuing to work on my Portfolio wireframes I created in Figma over the weekend and testing various designs before settling!
+
+**Code Snippet:**
+```
+const fs = require("node:fs/promises");
+const path = require("node:path");
+const { v4: uuidv4 } = require("uuid");
+
+const fileName = "quotes.json";
+const filePath = path.resolve(__dirname, fileName);
+// console.log(filePath);
+
+  //Task: Add and save a new quote
+	//take in quote text
+  //create a quote object
+  //assign unique id to object
+  //save the quote object to quotes.json at the end of the array 
+  //return newly created object
+a
+sync function addQuote(quote) {
+
+	quote = {
+    id: uuidv4(),
+    quoteText: quote
+  };
+  const JSONquote = await fs.readFile(filePath);
+  const quotes = JSON.parse(JSONquote);
+  quotes.push(quote);
+  const JSONData = JSON.stringify(quotes);
+  await fs.writeFile(filePath, JSONData);
+  return quote;
+};
 ```
