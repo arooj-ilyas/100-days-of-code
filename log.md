@@ -390,7 +390,7 @@ let shoppingList = ["Bananas", "Bread", "Cheese", "Crisps", "Milk"];
 
 ### Day 22: October 17, 2022
 
-**Today's Progress:** Debugging, CJS in Node.js and Local Modules
+**Today's Progress:** Backend week - Debugging, CJS in Node.js and Local Modules
 
 **Thoughts:** Starting off the week going through the common practices when debugging, how to approach it and why readable code is so important. Then went on to learn about Node.JS and why we use it. Learnt about the v8 JavaSCript Engine,what modules are and the different systems that exist (CJS-Common JS and ESM-ECMA Script Module). Finished the day with a light workshop where we practiced importing and exporting modules in CJS. This is all still very new to me so definitely will require a lot more hands-on practice and additional research in my own time before I understand node.js and modules better!
 
@@ -458,4 +458,59 @@ sync function addQuote(quote) {
   await fs.writeFile(filePath, JSONData);
   return quote;
 };
+```
+
+### Day 24: October 19, 2022
+
+**Today's Progress:** More Backend... Node Express, CRUD & PostMan! 
+
+**Thoughts:** Today I was introduced to CRUD operations, HTTP verbs and Postman for the first time all in one day! By the end of the day I was able to successfully build a REST API using Node.js and Express, create API endpoints allowing the user to create, read, update and delete a resource AND use Postman to make HTTP requests to test API endpoints! All new concepts to me I had never heard of at the start of the week and today is only Wednesday.
+
+Definitely need to spend some further time cementing in everything I learnt but the mystical world of backend is slowly but surely starting to make more sense... 💭
+
+**Code Snippet:**
+```
+const express = require("express");
+const app = express();
+const port = 3000;
+
+const {
+  getQuotes,
+  addQuote,
+  getRandomQuote,
+  editQuote,
+  deleteQuote,
+} = require("./quote.js");
+
+//create a get route handler with path api/quotes
+//await the async function
+//add an if statement, if the type in the request is ?=random then return getRandomQuote()
+//to select type use req.query.type
+
+app.get("/api/quotes", async function (req, res) {
+  //const JSONquote = require("getQuotes")
+  if (req.query.type === "random"){
+    res.json(await getRandomQuote());
+  }else{
+    res.json(await getQuotes());
+  }
+});
+
+
+//create a patch route handler with path /api/quotes/:id
+
+app.patch("/api/quotes/:id", async function (req, res) {
+	  // call the updateQuote function with the values that are passed in the PATCH json data
+	  let obj = await editQuote(req.params.id, req.body.quoteText);
+		 res.status(201).json(obj);
+});
+
+
+//create a delete route handler with the path /api/quotes/:id
+
+app.delete("/api/quotes/:id", async function (req, res) {
+	  // call the deleteQuote function with the values that are passed in the json data
+	  let delQuote = await deleteQuote(req.params.id);
+	  res.send(delQuote);
+});
 ```
