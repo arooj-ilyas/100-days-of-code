@@ -514,3 +514,79 @@ app.delete("/api/quotes/:id", async function (req, res) {
 	  res.send(delQuote);
 });
 ```
+
+### Day 25: October 20, 2022
+
+**Today's Progress:** Middleware, Routes & Models and Connecting Backend to Frontend using express.static! 
+
+**Thoughts:** Started the day with another mindset session with discussion on Inner Critics and Inner Champions! Learning to retrain my mind to use my perfectionist inner critic as a voice of encoragement and motivation. Shortly after, focus shifted to learning about middleware and why backend developers model and route their codes. We then put this into practice using the RESTful API workshop we completed earlier in the week and worked on routing and modeling the existing data into seperate files. Also worked on understanding how backend connects to front end and using the express.static middleware to link our models and routes to the static HTML, JS and CSS files. Challenging day, lots of information - I struggled a lot with understanding the purpose of middleware, routes and models but practice makes perfect! 
+
+**Code Snippet:**
+```
+const express = require("express");
+const morgan = require("morgan");
+const app = express();
+const port = 3000;
+
+app.use(express.json());
+
+//use morgan (third party module)
+app.use(morgan("dev"));
+
+//tell express to serve static files
+app.use(express.static("./public"));
+
+//add middleware before app.get request handler 
+app.use(function(req, res, next) {
+  console.log("This is my middleware");
+  next();
+});
+
+//Middleware, system time 
+app.use(function (req, res, next) {
+  req.requestTime = new Date().toLocaleString();
+  console.log(req.requestTime);
+  next();
+});
+```
+
+### Day 26: October 21, 2022
+
+**Today's Progress:**  Build a Back End - Hackathon Friday!! 
+
+**Thoughts:** Put together everything we learnt throughout the week. Finally stating to feel a bit more comfortable with creating async funcitions, if statements and for loops. We were tasked with creating a server that functions as an API to display various recipes! Goal was to get all the CRUD routes up for GET, POST, PATCH and DELETE running in the router so that the server listens for requests and serves test/example responses. Also required was to create functions which interact with the recipe collection such as getRecipes, getRecipesByID, createRecipe, updateRecipByID and deleteRecipeByID. By the end of the day, in pair programming, my partner and I succesfully got half way through and were able to pull get and post requests from our server! I definitely struggled this week understanding everything that was going on but a lot of information has been asborbed and I will continue to work on my recipes API until all requests from the HTTP methods can be made! 
+
+**Code Snippet:**
+```
+// UPDATE A RECIPE BY ID
+async function updateRecipeByID(id, updatedRecipe) {
+  const recipeJSON = await fs.readFile (filePath);
+  const recipe = JSON.parse(recipeJSON);
+  // console.log(`uR: ${updatedRecipe}, id: ${id}`);
+  for(let i=0; i < recipe.length; i++) {
+    // console.log(`this is the recipe ${recipe[i]}`)
+    // console.log(`ID here -> ${recipe[i].id}`);
+    if(id === recipe[i].id){ 
+      recipe[i] = updatedRecipe;
+      return updatedRecipe;
+    }
+  }
+}
+```
+
+### Day 27: October 22, 2022
+
+**Today's Progress:** Saturday - Rest and Relax 🧖🏽‍♀️
+
+**Thoughts:** Spent the day away from the screen as has been my tradition for the last 4 weeks! Can't believe I am already a month into my coding journey. I realise that as important as the theoretical and practical side of practicing code is for my journey, so is this side where I can summarise my knowledge and articulate it in a journal. Sometimes with the hussle and bussle of the week I tend to forget to update my 100daysofcode logs but weekends are the time I take out to reflect back on what I learnt this week and write down my thoughts and new knowledge here :) 
+
+### Day 28: October 23, 2022
+
+**Today's Progress:** 
+
+**Thoughts:** 
+
+**Code Snippet:**
+```
+
+```
