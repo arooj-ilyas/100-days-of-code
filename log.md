@@ -445,7 +445,6 @@ const filePath = path.resolve(__dirname, fileName);
   //return newly created object
 
 async function addQuote(quote) {
-
   quote = {
     id: uuidv4(),
     quoteText: quote
@@ -499,18 +498,18 @@ app.get("/api/quotes", async function (req, res) {
 //create a patch route handler with path /api/quotes/:id
 
 app.patch("/api/quotes/:id", async function (req, res) {
-	  // call the updateQuote function with the values that are passed in the PATCH json data
-	  let obj = await editQuote(req.params.id, req.body.quoteText);
-		 res.status(201).json(obj);
+	// call the updateQuote function with the values that are passed in the PATCH json data
+	let obj = await editQuote(req.params.id, req.body.quoteText);
+	res.status(201).json(obj);
 });
 
 
 //create a delete route handler with the path /api/quotes/:id
 
 app.delete("/api/quotes/:id", async function (req, res) {
-	  // call the deleteQuote function with the values that are passed in the json data
-	  let delQuote = await deleteQuote(req.params.id);
-	  res.send(delQuote);
+	// call the deleteQuote function with the values that are passed in the json data
+  let delQuote = await deleteQuote(req.params.id);
+  res.send(delQuote);
 });
 ```
 
