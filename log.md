@@ -63,7 +63,7 @@ let index=0
 
 ### Day 5: September 30, 2022
 
-**Today's Progress**: First Hackathon! Create a rock, paper, scissors game
+**Today's Progress**: 💥 Rock, paper, scissors game - Hackathon Friday!!
 
 **Thoughts** Today was a tough one! We had 7 tasks to work through to create a rock paper and scissors game with an user input function against a computer. The tasks included using Logic, creating a function with if statements, adding user input, prompts, alerts, using a Math.random() function for the computer player, creating a game loop with a while function to confirm it works and getting the player to input their name using a prompt. I only managed to complete 4/7 tasks but very proud of my efforts and ability to get that far considering I would not have even been able to write a single line of code last week!  
 
@@ -85,7 +85,7 @@ let result = getWinner(player1, player2)
 ```
 ### Day 6: October 1, 2022
 
-**Today's Progress**: Week recap & review
+**Today's Progress**: Week 1 recap & review... ✅
 
 **Thoughts** After a long week of learning a lot of new concepts with HTML, JavaScript and GitHub, I decided to spend today taking a bit of a break from learning anything new and instead spent the day recapping what I learnt this week before putting it into practice and attempting the remaining 3 tasks of the Hackathon. I reviewed what I learnt about objects, functions and arrays and how to create properties within objects and arrays. Also wanted to review that I fully understand how to clone down git repositorys and push/pull as that is going to be a vital part for the remainder of my School of Code course. 
 
@@ -107,7 +107,7 @@ let player2 = Math.floor(Math.random() * 3)
 ```
 ### Day 8: October 3, 2022
 
-**Today's Progress**: CodeWars and DOM's
+**Today's Progress**: CodeWars and DOM's ⚔️
 
 **Thoughts** Start of Week 2 with the School Of Code - began the day reflecting on last week with some retrospective feedback on pair programming using the 'Stop, Start, Continue' feedback format. Signed up for CodeWars and completed 2 Level 8 Kata's! Then went on to learn all abot DOM's and how to use JavaScript to manipulate a pages CSS and HTML. Familirised myself more with for loops and learnt about querySelector, querySelectorAll, .textContent, .appendChild and .removeChild
 
@@ -181,7 +181,7 @@ async function getquote() {
 ```
 ### Day 11: October 6, 2022
 
-**Today's Progress:** Mindset, Navigating Data, Presenting Research
+**Today's Progress:** 🧠 Mindset Thursday, Navigating Data, Presenting Research
 
 **Thoughts:** Today was a mindset day, I took a personality test the night before and spoke amongst my peers of how various personality types can work together and potentially clash in working environments. Understanding these different personalities better, as well as understanding which category I fall into, will aid me in being able a better team player where I can allow my strength to shine in a working culture and also know when to ask for help. Completed a small workshop on navigating data and solidifed my understanding of selecting specific objects, properties and arrays from large data sets in DOM. Worked thereafter in a small group of 4 on individually researching the various devTools and presenting this in a short 4 minute presetnation. I definitely need to brush up on my public speaking skills but found the task a good way to bring me out of my comfort zone and learn something new. 
 
@@ -196,7 +196,7 @@ function lizRiosFavFruit() {
 ```
 ### Day 12: October 7, 2022
 
-**Today's Progress:** Fetch - Hackathon Fridays!! 
+**Today's Progress:** 💥 Fetch - Hackathon Fridays!! 
 
 **Thoughts:** Today we worked in pair programming on a Fetch Hackathon where my partner and I selected a trivia API to create our very own game! We created a plan of what functionalities it to include and filtered the API link to match this - e.g. a true/false quiz on the category of music at a medium difficulty level. We broke down what we wanted to do, made a checklist and then began coding. Within the code we utilised async functions, fetch, await, JSON, selecting and updating properties in an object such as textContent/innerHTML, eventListeners, callback functions, if statements and much more. We also went on to use our limited existing CSS knowledge to spruce up the look of the game after lots of googling. Definitely want to focus more on learning to clean code and still so many more JS functions to learn but really proud of how far I've come so far :)
 
@@ -253,7 +253,7 @@ for (let celeb of celebs) {
 
 ### Day 15: October 10, 2022
 
-**Today's Progress:** Week 3 commenses! Agenda: UI/UX
+**Today's Progress:** 🏃🏽‍♀️ Week 3 commenses! Agenda: UI/UX
 
 **Thoughts:** Worked on a !Lightening challenge with the aim of creating the Google landing page 'blindly' coded to demonstrate the importance of feedback. Given I haven't looked at HTML in depth since day 2/3 at SoC, I felt a bit underprepared for this task - unsure of the differences between ```<div> and <section>``` tags so I definitely want to spend some time revisiting this on FCC!
 
@@ -288,7 +288,7 @@ Learnt further about how CSS plays a vital role in UI and looked into CSS specif
 
 ### Day 18: October 13, 2022
 
-**Today's Progress:** Types of Listeners, CSS Flex, UX Tools! 
+**Today's Progress:** 🧠 Mindset Thursday, CSS Flex, UX Tools! 
 
 **Thoughts:** Started the day with a nice mindset session on the types of listeners that exist and which one I am. Covered the 'Flex' propterty in CSS as well as learning some new commands like justify-content allign-items, gap and flex direction. I still struggle with CSS and do not fully understanding all the possibilities. I will probably spend some time covering this myself in FreeCodeCamp.
 
@@ -321,7 +321,7 @@ main > div.button {
 ```
 ### Day 19: October 14, 2022
 
-**Today's Progress:** Design - Hackathon Fridays!!
+**Today's Progress:** 💥 Design - Hackathon Fridays!!
 
 **Thoughts:** Worked on a day-long Hackathon task of using the bootcamp idea my partner and I brainstormed earlier this week to go through the UI UX process of bringing the idea to fruition. We began with reviewing what we learnt this week and making a plan. The focus of this task was on planning, wireframing, designing and iterating before building the MVP in HTML and CSS.
 
@@ -390,7 +390,7 @@ let shoppingList = ["Bananas", "Bread", "Cheese", "Crisps", "Milk"];
 
 ### Day 22: October 17, 2022
 
-**Today's Progress:** Backend week - Debugging, CJS in Node.js and Local Modules
+**Today's Progress:** 🔙🔚 Backend Week - Debugging, CJS in Node.js and Local Modules
 
 **Thoughts:** Starting off the week going through the common practices when debugging, how to approach it and why readable code is so important. Then went on to learn about Node.JS and why we use it. Learnt about the v8 JavaSCript Engine,what modules are and the different systems that exist (CJS-Common JS and ESM-ECMA Script Module). Finished the day with a light workshop where we practiced importing and exporting modules in CJS. This is all still very new to me so definitely will require a lot more hands-on practice and additional research in my own time before I understand node.js and modules better!
 
@@ -422,7 +422,7 @@ const {pickRandomBootcamper} = require("./bootcamper.js");
 
 ### Day 23: October 18, 2022
 
-**Today's Progress:** Node.js Core Modules and Third Party Modules
+**Today's Progress:** 🔙🔚 Node.js Core Modules and Third Party Modules
 
 **Thoughts:** Covered destructuing and how that can help when working in node.js. Afterwards I went on to learn more about the different types of modules that exist in node.js: Local, Core and Third Party. One workshop on Core Modules taught me how to Read and write to files using the fs module, use uuid (a third-party package) to generate unique ids and serialize/deserialize data using the JSON.parse and JSON.stringify methods. Second workshop on Third Party Modules gave us an intro to Express, use NPM init and set up our own local server! 
 
@@ -460,7 +460,7 @@ async function addQuote(quote) {
 
 ### Day 24: October 19, 2022
 
-**Today's Progress:** More Backend... Node Express, CRUD & PostMan! 
+**Today's Progress:** 🔙🔚 Node Express, CRUD & PostMan! 
 
 **Thoughts:** Today I was introduced to CRUD operations, HTTP verbs and Postman for the first time all in one day! By the end of the day I was able to successfully build a REST API using Node.js and Express, create API endpoints allowing the user to create, read, update and delete a resource AND use Postman to make HTTP requests to test API endpoints! All new concepts to me I had never heard of at the start of the week and today is only Wednesday.
 
@@ -505,7 +505,7 @@ app.patch("/api/quotes/:id", async function (req, res) {
 
 ### Day 25: October 20, 2022
 
-**Today's Progress:** Middleware, Routes & Models and Connecting Backend to Frontend using express.static! 
+**Today's Progress:** 🧠 Mindset Thursday, 🔙🔚 Middleware, Routes & Models and Connecting Backend to Frontend using express.static! 
 
 **Thoughts:** Started the day with another mindset session with discussion on Inner Critics and Inner Champions! Learning to retrain my mind to use my perfectionist inner critic as a voice of encoragement and motivation. Shortly after, focus shifted to learning about middleware and why backend developers model and route their codes. We then put this into practice using the RESTful API workshop we completed earlier in the week and worked on routing and modeling the existing data into seperate files. Also worked on understanding how backend connects to front end and using the express.static middleware to link our models and routes to the static HTML, JS and CSS files. Challenging day, lots of information - I struggled a lot with understanding the purpose of middleware, routes and models but practice makes perfect! 
 
@@ -540,7 +540,7 @@ app.use(function (req, res, next) {
 
 ### Day 26: October 21, 2022
 
-**Today's Progress:**  Build a Back End - Hackathon Friday!! 
+**Today's Progress:** 💥 Build a Back End - Hackathon Friday!! 
 
 **Thoughts:** Put together everything we learnt throughout the week. Finally stating to feel a bit more comfortable with creating async funcitions, if statements and for loops. We were tasked with creating a server that functions as an API to display various recipes! Goal was to get all the CRUD routes up for GET, POST, PATCH and DELETE running in the router so that the server listens for requests and serves test/example responses. Also required was to create functions which interact with the recipe collection such as getRecipes, getRecipesByID, createRecipe, updateRecipByID and deleteRecipeByID. By the end of the day, in pair programming, my partner and I succesfully got half way through and were able to pull get and post requests from our server! I definitely struggled this week understanding everything that was going on but a lot of information has been asborbed and I will continue to work on my recipes API until all requests from the HTTP methods can be made! 
 
@@ -551,7 +551,7 @@ async function updateRecipeByID(id, updatedRecipe) {
   const recipeJSON = await fs.readFile (filePath);
   const recipe = JSON.parse(recipeJSON);
   // console.log(`uR: ${updatedRecipe}, id: ${id}`);
-  
+
   for(let i=0; i < recipe.length; i++) {
     // console.log(`this is the recipe ${recipe[i]}`)
     // console.log(`ID here -> ${recipe[i].id}`);
