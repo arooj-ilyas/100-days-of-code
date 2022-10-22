@@ -402,22 +402,22 @@ On a side note, I am still really struggling to get to grips with the difference
 //in bootcamper.js file, create the pickRandomBootcamper variable to select a random bootcamper
 
 function pickRandomBootcamper(bootcamperData) {
-    const random = Math.floor(Math.random()*2);
-    // console.log("test", bootcamperData);
+const random = Math.floor(Math.random()*2);
+  // console.log("test", bootcamperData);
     
-		const user = bootcamperData[random];
-    // console.log(user);
+const user = bootcamperData[random];
+  // console.log(user);
     
-		if (user.hasPets === false) {
-        return `Hi, my name is ${user.firstName} ${user.lastName}. I'm ${user.age} years old and I have no pets.`
-    }else{
-        return `Hi, my name is ${user.firstName} ${user.lastName}. I'm ${user.age} years old and I'm a pet owner.`
-    };
+if (user.hasPets === false) {
+  return `Hi, my name is ${user.firstName} ${user.lastName}. I'm ${user.age} years old and I have no pets.`
+  }else{
+  return `Hi, my name is ${user.firstName} ${user.lastName}. I'm ${user.age} years old and I'm a pet owner.`
+};
 
 module.exports = {pickRandomBootcamper};
 
 //in app.js file, require the export
-		const {pickRandomBootcamper} = require("./bootcamper.js");
+const {pickRandomBootcamper} = require("./bootcamper.js");
 ```
 
 ### Day 23: October 18, 2022
@@ -444,8 +444,8 @@ const filePath = path.resolve(__dirname, fileName);
   //assign unique id to object
   //save the quote object to quotes.json at the end of the array 
   //return newly created object
-a
-sync function addQuote(quote) {
+
+async function addQuote(quote) {
 
 	quote = {
     id: uuidv4(),
