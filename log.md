@@ -505,7 +505,7 @@ app.patch("/api/quotes/:id", async function (req, res) {
 
 ### Day 25: October 20, 2022
 
-**Today's Progress:** 🧠 Mindset Thursday, 🔙🔚 Middleware, Routes & Models and Connecting Backend to Frontend using express.static! 
+**Today's Progress:** 🧠 Mindset Thursday, 🔙🔚 Middleware, Routes & Models and Linked Backend to Frontend 
 
 **Thoughts:** Started the day with another mindset session with discussion on Inner Critics and Inner Champions! Learning to retrain my mind to use my perfectionist inner critic as a voice of encoragement and motivation. Shortly after, focus shifted to learning about middleware and why backend developers model and route their codes. We then put this into practice using the RESTful API workshop we completed earlier in the week and worked on routing and modeling the existing data into seperate files. Also worked on understanding how backend connects to front end and using the express.static middleware to link our models and routes to the static HTML, JS and CSS files. Challenging day, lots of information - I struggled a lot with understanding the purpose of middleware, routes and models but practice makes perfect! 
 
