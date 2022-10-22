@@ -433,7 +433,6 @@ On the side I am continuing to work on my Portfolio wireframes I created in Figm
 const fs = require("node:fs/promises");
 const path = require("node:path");
 const { v4: uuidv4 } = require("uuid");
-
 const fileName = "quotes.json";
 const filePath = path.resolve(__dirname, fileName);
 // console.log(filePath);
@@ -447,7 +446,7 @@ const filePath = path.resolve(__dirname, fileName);
 
 async function addQuote(quote) {
 
-	quote = {
+  quote = {
     id: uuidv4(),
     quoteText: quote
   };
