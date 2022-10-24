@@ -571,11 +571,77 @@ async function updateRecipeByID(id, updatedRecipe) {
 
 ### Day 28: October 23, 2022
 
-**Today's Progress:** 
+**Today's Progress:** Week 3 Recap Task... Backend & API Routes ✅  
 
-**Thoughts:** 
+**Thoughts:** The jigsaw puzzle that is backend is slowly starting to be build and things are slowly starting to make more sense. This weeks recap task wanted us to create some API CRUD routes using the HTTP methods we covered earlier in the week; get, post, patch and delete. I coded each route handler in the routes/users.js file and each helper function in the models/users.js file, then tested it in postman with the correct URL path for the function to make sure it's all performing as told! I still find the 'patch' handler a bit difficult and will need to spend more time going over this but feeling a lot more confident than I did earlier in the week and this will onlu continue as time goes on! 
+
+One thing I am really happy about is that for of and for in loops are starting to make MUCH more sense to me. I can see why we use them and where and was even able to write one in my API without any help! A very proud moment for me as I struggled with this a LOT at the start of the course :) 
 
 **Code Snippet:**
 ```
+async function updateUserByID(id, updatedUser) {
+  const users = await getUsers();
+  for (user of users) {
+    if (user.id === id) {
+      if (updatedUser.first_name) user.first_name = updatedUser.first_name;
+      if (updatedUser.last_name) user.last_name = updatedUser.last_name;
+      if (updatedUser.email) user.email = updatedUser.email;
+      if (updatedUser.catchphrase) user.catchphrase = updatedUser.catchphrase;
+      await fs.writeFile(filePath, JSON.stringify(user));
+      return user;
+    }
+}
+}
+```
 
+### Day 29: October 24, 2022
+
+**Today's Progress:** Introduction to Databases and SQL
+
+**Thoughts:** Learning another new language to build on our Backend knowledge - this time, SQL! Today we covered what a database is, how it can be stored and the different types. We covered relational vs non-relational and what a 'query' actually symbolises. We dived further into relational databases and completed an Intro to SQL lesson on db.fiddle. From there, we pair programmed to play around with using the CRUD operations in SQL with the select query, where clause, insert into statements, update and delete! This was my first ever time hearing and learning about SQL so it was a lot of new information for me. We also briefly covered Schema for SQL and experimented making our own.
+
+**Link to work:** https://www.db-fiddle.com/f/dg2RJvBX1aZda3ECwQUSoe/81
+
+**Code Snippet:**
+```
+CREATE TABLE users (
+  user_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY, 
+	//INT means 'integer', aka type (number)
+	//GENERATED ALWAYS... automatically assigns a unique number to a column and errors if you try to update yourself
+
+  name TEXT,
+  email TEXT,
+  username TEXT
+);
+
+INSERT INTO
+  users (name, email, username)
+VALUES
+(
+  'Ben',
+  'ben@ben.com',
+  'MrBenBot'
+),
+(
+  'Chris',
+  'chris@chris.com',
+  'TheBoss'
+)
+
+INSERT INTO users (name, email, username) VALUES (’Tao’, ‘tao@tao.com’, BegoniaFan’);
+SELECT * FROM users;
+
+UPDATE users SET username = 'Ta-yoyo- WHERE user_id = 2 
+RETURNING username;
+SELECT * FROM users;
+```
+
+### Day 30: October 25, 2022
+
+**Today's Progress:** 
+
+**Thoughts:**
+
+**Code Snippet:**
+```
 ```
