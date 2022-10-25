@@ -638,10 +638,28 @@ SELECT * FROM users;
 
 ### Day 30: October 25, 2022
 
-**Today's Progress:** 
+**Today's Progress:** SQL Joins & Murder Mystery Game! 🕵🏽🔍
 
-**Thoughts:**
+**Thoughts:** Today was probably one of the most fun days I've had on the course! Started off the day with an amazing talk by a SoC Alumni on using our time here to learn how to learn, value the power of teamwork and embrace pair programming as it will come in handy when entering the workspace also! From there we continued to learn more about SQL, this time the different types of 'Joins'. We put what we learnt into practice with the PostgreSQL Joins and SubQueries Exercises and SQL Murder Mystery Game. Came across so many new concepts whilst completeing these, including but not limited to: SELECT DISTINCT, (AND, OR, NOT, BETWEEN) CONDITIONS, ORDER BY, LIKE, ALIASES, CASE WHERE
 
 **Code Snippet:**
 ```
+SELECT firstname || ' ' || surname AS member, name AS facility,
+CASE
+	WHEN cd.bookings.memid = 0 THEN (guestcost*slots)
+	WHEN cd.bookings.memid > 0 THEN (membercost*slots)
+	END AS cost
+FROM cd.members
+
+JOIN cd.bookings ON cd.bookings.memid = cd.members.memid
+JOIN cd.facilities ON cd.facilities.facid = cd.bookings.facid
+
+WHERE  cd.bookings.starttime BETWEEN '2012-09-14 00:00:00' AND '2012-09-14 23:59:59' AND
+	(
+		(cd.bookings.memid = 0 and cd.bookings.slots*guestcost > 30) or
+		(cd.bookings.memid != 0 and cd.bookings.slots*membercost > 30)
+	)
+		
+ORDER BY cost DESC;
 ```
+**Link to exercises completed:** https://pgexercises.com/questions/joins/, https://mystery.knightlab.com/index.html#experienced
