@@ -656,8 +656,8 @@ JOIN cd.facilities ON cd.facilities.facid = cd.bookings.facid
 
 WHERE  cd.bookings.starttime BETWEEN '2012-09-14 00:00:00' AND '2012-09-14 23:59:59' AND
 	(
-		(cd.bookings.memid = 0 and cd.bookings.slots*guestcost > 30) or
-		(cd.bookings.memid != 0 and cd.bookings.slots*membercost > 30)
+	(cd.bookings.memid = 0 and cd.bookings.slots*guestcost > 30) or
+	(cd.bookings.memid != 0 and cd.bookings.slots*membercost > 30)
 	)
 		
 ORDER BY cost DESC;
