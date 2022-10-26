@@ -91,9 +91,9 @@ let result = getWinner(player1, player2)
 
 ### Day 7: October 2, 2022
 
-**Today's Progress** FCC JavaScript Basics & week recap 
+**Today's Progress:** FCC JavaScript Basics & week recap 
 
-**Thoughts** Today I managed to get 70% through the FreeCodeCamp course for Basics of JavaScript, this helped me so much in terms of solidifying what I've learnt this week and really making sure I fully comprehend the basics so that I can tackle the workshops next week with a better base understanding! Feel much more familiar now with create if/else if statements and different operators such as && and | |. Also learnt that there is a difference between the == (equality operator) and === (strict equlaity operator). Completed task 5/7 for the Hackathon and learnt more about math.Random and math.Floor to return random integers. 
+**Thoughts:** Today I managed to get 70% through the FreeCodeCamp course for Basics of JavaScript, this helped me so much in terms of solidifying what I've learnt this week and really making sure I fully comprehend the basics so that I can tackle the workshops next week with a better base understanding! Feel much more familiar now with create if/else if statements and different operators such as ```&&``` and ```| |```. Also learnt that there is a difference between the == (equality operator) and === (strict equlaity operator). Completed task 5/7 for the Hackathon and learnt more about math.Random and math.Floor to return random integers. 
 
 **Code Snippet:**
 ```
