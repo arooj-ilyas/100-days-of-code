@@ -666,7 +666,7 @@ ORDER BY cost DESC;
 
 ### Day 31: October 26, 2022
 
-**Today's Progress:** First SQL Database with ElephantSQL and Connection Pools 🐘🏊🏽‍♀️
+**Today's Progress:** First SQL Database with ElephantSQL 🐘 and Connection Pools 🏊🏽‍♀️
 
 **Thoughts:** Huge milestone today and a LOT of learning! Today I was able to set up a connection pool between a database created in ElephantSQL on books & authors and a rest API's through utilising node-postgres to interface with the PostgreSQL database. With a combination of npm packages, requiring and exporting modules, async funtions, plenty of awaiting (pun intended) and environmental variables, I was able to use the understanding of SQL queries I built this week to create a model function for 'GetBooks()' and 'searchBooksByAuthor()'! Today was incredibly challenging and I learnt a lot of new concepts which I definitely need to build my understanding on, but I feel positive that I am on the right track. I'm excited to learn more about this powerful concept and putting together the final puzzle pieces that are the jigsaw of Backend. My mentor and pair programming partner have definitely been my biggest supporters this week and I am feeling very grateful for them both. 🫶🏽
 
