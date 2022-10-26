@@ -102,9 +102,10 @@ let player2 = Math.floor(Math.random() * 3)
         player2="rock"
     } 
  // repeated with if statements for outcome of scissors and paper
+```
 
 **Link to work**: https://www.freecodecamp.org/fccc2498d63-cfb8-47dc-9a8a-e4da663cd78c
-```
+
 ### Day 8: October 3, 2022
 
 **Today's Progress**: CodeWars and DOM's ⚔️
