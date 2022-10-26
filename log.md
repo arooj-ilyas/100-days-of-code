@@ -663,3 +663,32 @@ WHERE  cd.bookings.starttime BETWEEN '2012-09-14 00:00:00' AND '2012-09-14 23:59
 ORDER BY cost DESC;
 ```
 **Link to exercises completed:** https://pgexercises.com/questions/joins/, https://mystery.knightlab.com/index.html#experienced
+
+### Day 31: October 26, 2022
+
+**Today's Progress:** First SQL Database with ElephantSQL and Connection Pools 🐘🏊🏽‍♀️
+
+**Thoughts:** Huge milestone today and a LOT of learning! Today I was able to set up a connection pool between a database created in ElephantSQL on books & authors and a rest API's through utilising node-postgres to interface with the PostgreSQL database. With a combination of npm packages, requiring and exporting modules, async funtions, plenty of awaiting (pun intended) and environmental variables, I was able to use the understanding of SQL queries I built this week to create a model function for 'GetBooks()' and 'searchBooksByAuthor()'! Today was incredibly challenging and I learnt a lot of new concepts which I definitely need to build my understanding on, but I feel positive that I am on the right track. I'm excited to learn more about this powerful concept and putting together the final puzzle pieces that are the jigsaw of Backend. My mentor and pair programming partner have definitely been my biggest supporters this week and I am feeling very grateful for them both. 🫶🏽
+
+It was really interesting today to learn about the reason we use environmetal variables and the essential layer of security they add, definitely something I knew nothing about prior to today!
+
+**Code Snippet:**
+```
+async function searchBooksByAuthor(searchTerm) {
+  // Query the database and return all books that have an author name matching the searchTerm
+	// Use the query function to filter books with author name (last name for now)
+	// Await!
+	// Collect what query returns in the variable (variable: result)
+	// Console.log and return the relevant part of the result
+
+  let result = await query (
+  `SELECT * 
+  FROM books
+  INNER JOIN authors 
+  ON books.author_id = authors.id
+  WHERE last_name = $1;`, [searchTerm]);
+  //console.log (result);
+  let bookByAuthor = result.rows[0];
+  return bookByAuthor;
+}
+```
