@@ -279,6 +279,7 @@ In the afternoon, we went on to link what we learnt about UX and Design Thinking
   --border-radius: 10px;
 }
 ```
+
 ### Day 17: October 12, 2022
 
 **Today's Progress:** UI Design & CSS Organisation/Specificity
@@ -320,6 +321,7 @@ main > div.button {
 	allign-items: center;
 }
 ```
+
 ### Day 19: October 14, 2022
 
 **Today's Progress:** 💥 Design - Hackathon Fridays!!
@@ -572,7 +574,7 @@ async function updateRecipeByID(id, updatedRecipe) {
 
 ### Day 28: October 23, 2022
 
-**Today's Progress:** Week 3 Recap Task... Backend & API Routes ✅  
+**Today's Progress:** Week 4 Recap Task... Backend & API Routes ✅  
 
 **Thoughts:** The jigsaw puzzle that is backend is slowly starting to be build and things are slowly starting to make more sense. This weeks recap task wanted us to create some API CRUD routes using the HTTP methods we covered earlier in the week; get, post, patch and delete. I coded each route handler in the routes/users.js file and each helper function in the models/users.js file, then tested it in postman with the correct URL path for the function to make sure it's all performing as told! I still find the 'patch' handler a bit difficult and will need to spend more time going over this but feeling a lot more confident than I did earlier in the week and this will onlu continue as time goes on! 
 
@@ -692,4 +694,150 @@ async function searchBooksByAuthor(searchTerm) {
   let bookByAuthor = result.rows[0];
   return bookByAuthor;
 }
+```
+
+### Day 32: October 27, 2022
+
+**Today's Progress:** 🧠 Mindset Thursday, Parameterised Queries & Group Presentations
+
+**Thoughts:** Mindset session in the morning all about values and making decisions in groups and why we should not focus on just finding the right answer, but rather on how to work as a group. Spent most of the day finishing up yesterdays workshop - starting to feel more comfortable with the concept of creating environmental variables & connection strings, async functions with SQL queries & parameterised statements, exporting these request models and creating routes for the response. Finished the day with giving a group presentation on Arrow Functions - I think I understand these better now!!
+
+I definitely need more practice on creating routes in my API but I assume tomorrow's hackathon will help me with that 🫣
+
+**Code Snippet:**
+```
+//.env file
+PORT = 3000
+POSTGRES_CONNECTION_URL=postgres://jcizuxho:bjUejFIM_queeRz3gG9OudvP1-x2AGP4@lucky.db.elephantsql.com/jcizuxho
+
+//db index.js file
+const { Pool } = require('pg')
+const pool = new Pool({ connectionString: process.env.POSTGRES_CONNECTION_URL, });
+
+module.exports = {
+    query: function(text, params) {
+        return pool.query(text, params)
+    }
+}
+
+//model routes file
+const { query } = require("../db/index.js");
+```
+
+### Day 33: October 28, 2022
+
+**Today's Progress:** 💥 Build a REST API with Node.js, Express & PostgreSQL - Hackathon Friday!!
+
+**Thoughts:** Big one today! My partner and I worked on creating a database of plants and sepearting it into 3 different tables; 'Plants', 'Owners' and 'Plants Owned'. The first SQL table would generate an ID for the plant, list the name of the plant, its height and light/water level requirements. The second table would generate an ID for the owner and their name, and the third table would pull these two together with the Plant_id and Owner_id to find which owner owns which plants. We created the connection string using the URL from our ElephantSQL database in the hidden .env file, created models and routes for 21 different requests covering all 4 CRUD operations! 🥳
+
+I am starting to feel much more confident with SQL and I've found what works best for me is running the SQL query in ElephantSQL first to ensure my function will carry out the query I want without crashing the code or returning the wrong result! Made many syntax and typos along the way that caused errors but found that my partner and I worked really well with error messages, debugging and console.logging to find the root cause of the error without external help 💪🏼
+
+I still need to work on connecting backend to frontend as we weren't able to get far enough in our hackathon timeframe to complete that but will be my goal for next week! 
+
+**Code Snippet:**
+```
+//async function in models - updateOwnedPlant ✅ 
+async function updateOwnedPlant(id, updated) {
+    let result = await query(
+    `UPDATE owned_plants
+    SET owner_id = $1, plant_id = $2, plant_nickname = $3
+    WHERE owned_plant_id = $4
+    RETURNING *;`, [updated.owner_id, updated.plant_id, updated.plant_nickname, id]);
+    let updatedOwnedPlant = result.rows;
+    return updatedOwnedPlant;
+}
+
+
+//create request response in route - updateOwnedPlant ✅ 
+router.patch("/:id", async function (req,res) {
+    const updatedOwnedPlant = await updateOwnedPlant(req.params.id, req.body);
+    return res.json( { success: true, payload: updatedOwnedPlant});
+});
+
+
+//require route from routes folder and tell the app to use it
+const ownedPlantsRouter = require("./routes/owned_plants.js");
+app.use("/api/owned_Plants", ownedPlantsRouter);
+```
+
+### Day 34: October 29, 2022
+
+**Today's Progress:** Saturday - Rest and Relax 🧖🏽‍♀️
+
+**Thoughts:** Following my saturday tradition so far and spent the day away from the screen! I did spend half an hour or so putting into practice what I learnt on Thursday to refactor some of my old codewars with regular functions into arrow functions. I feel comfortbale with doing it when theres only one argument and one statement but I want to work on trying this with more arguments and if statements/loops in the statements.
+
+**Code Snippet:**
+```
+//CodeWar - given the year, return what century it is
+
+//Regular Function
+function century (year) {
+	let answer = math.ceil(year/100);
+	return answer;
+}
+
+//Arrow Function
+const century = year => math.ceil(year/100);
+```
+
+### Day 35: October 30, 2022
+
+**Today's Progress:** Week 5 Recap Task... CommonJS (CJS) vs ECMAScript modules (ESM) ✅
+
+**Thoughts:** Now that we have spent the last 2 weeks covering writing REST API's in CSJ, next week we will work on refactoring this into ESM. I spent some time today reading resources which go through the differences between the two and refactoring parts of my friday's hackathon from CJS to ESM. I am feeling good about achieving the goals of the recap task which were; be able to import modules using ESM, export modules using ESM and create/convert an existing API to ESM and test the code works. A YouTube video titled 'JavaScript Modules: From IIFEs to CommonJS to ES6 Modules' really helped me understand the differences and refactor my API! 
+
+**Resources:** https://www.youtube.com/watch?v=qJWALEoGge4
+
+**Code Snippet:**
+```
+```
+
+### Day 35: October 31, 2022
+
+**Today's Progress:** 
+
+**Thoughts:**
+
+**Code Snippet:**
+```
+```
+
+### Day 36: November 1, 2022
+
+**Today's Progress:** 
+
+**Thoughts:**
+
+**Code Snippet:**
+```
+```
+
+### Day 37: November 2, 2022
+
+**Today's Progress:** 
+
+**Thoughts:**
+
+**Code Snippet:**
+```
+```
+
+### Day 38: November 3, 2022
+
+**Today's Progress:** 
+
+**Thoughts:**
+
+**Code Snippet:**
+```
+```
+
+### Day 38: November 3, 2022
+
+**Today's Progress:** 
+
+**Thoughts:**
+
+**Code Snippet:**
+```
 ```
