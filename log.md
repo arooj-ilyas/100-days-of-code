@@ -792,7 +792,7 @@ const century = year => math.ceil(year/100);
 ```
 ```
 
-### Day 35: October 31, 2022
+### Day 36: October 31, 2022
 
 **Today's Progress:** 
 
@@ -802,7 +802,7 @@ const century = year => math.ceil(year/100);
 ```
 ```
 
-### Day 36: November 1, 2022
+### Day 37: November 1, 2022
 
 **Today's Progress:** 
 
@@ -812,7 +812,7 @@ const century = year => math.ceil(year/100);
 ```
 ```
 
-### Day 37: November 2, 2022
+### Day 38: November 2, 2022
 
 **Today's Progress:** 
 
@@ -822,7 +822,7 @@ const century = year => math.ceil(year/100);
 ```
 ```
 
-### Day 38: November 3, 2022
+### Day 39: November 3, 2022
 
 **Today's Progress:** 
 
@@ -832,7 +832,7 @@ const century = year => math.ceil(year/100);
 ```
 ```
 
-### Day 38: November 3, 2022
+### Day 40: November 3, 2022
 
 **Today's Progress:** 
 
