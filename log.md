@@ -788,18 +788,36 @@ const century = year => math.ceil(year/100);
 
 **Resources:** https://www.youtube.com/watch?v=qJWALEoGge4
 
-**Code Snippet:**
-```
-```
-
 ### Day 36: October 31, 2022
 
-**Today's Progress:** 
+**Today's Progress:** Intro to Testing; Unit Testing, Pros/Cons and Jest
 
-**Thoughts:**
+**Thoughts:** Started Monday off with a fantastic talk from guest speaker Nadeem Shabir (Staff Engineer) all about testing code and the key qualities a Junior Software Developer should strive to have to succeed in the industry. From there we dived further into the world of testing and looked at the Testing Pyramid. We focused only on unit testing today and covered testing in the feedback cycle, the pros/cons and why we test. We tied this in with our Node.js understanding by learning about the npm module Jest, and put it into practice with some basic testing functions. 
+
+As we have been working predominantly in CJS so far, working today in ESM was a bit different and will take some getting used to. But this reminds me of something Nadeem said today which really stood out to me. To remain successful, it is important to learn to unlearn. The world of tech changing so fast, so there is always something new being developed for us to use. Today I had a first-hand experience of that by having to move away from CJS and focus more on ESM, but I am up for the challenge!!  
 
 **Code Snippet:**
 ```
+// scripts tag in package.json file
+"scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  }
+
+// function in js file (in ESM)
+export function sum(a, b) {
+    return a + b;
+  }
+
+// test in separate js file
+import { sum } from './sum';
+
+test(
+// a function that takes in a human readable string as first argument and a function as the second
+// string with a specific label that shows up in the terminal and represents the test itself
+    'adds 1 + 2 to equal 3', () => {
+// function with testing logic of what we want to have happen
+    expect(sum(1, 2)).toBe(3);
+});
 ```
 
 ### Day 37: November 1, 2022
