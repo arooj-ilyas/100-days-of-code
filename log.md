@@ -942,7 +942,7 @@ export default function react() {
 
 **Thoughts:** Completed a quick recap task consolidating everything we learnt on testing during Week 6. Very much similar to the hackathon task, but this time with a send Tweets page. I'm feeling much more comfortable with Cypress now and was able to implement TDD when writing the integration tests pretty well. I find creating a md plan file the simplest way for me to break down what functionalities I want the page to be able to perform into what tests I need to run. 
 
-I had a slight initial struggle when connecting the database to the documents where the server was listening to the port but nothing was there. I was able to resolve this issue really qucikly after looking back on my notes and realising after connecting the database, the first step is to `run npm db:reset` before running any tests.
+I had a slight initial struggle when connecting the database to the documents where the server was listening to the port but none of the tweets in the database were shown. I was able to resolve this issue really quickly after looking back on my notes and realising after connecting the database, the first step is to `run npm db:reset` before running any tests.
 
 **Code Snippet:**
 ```
