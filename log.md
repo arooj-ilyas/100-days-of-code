@@ -822,35 +822,176 @@ test(
 
 ### Day 37: November 1, 2022
 
-**Today's Progress:** 
+**Today's Progress:** E2E Testing 👩🏽‍🔬
 
-**Thoughts:**
+**Thoughts:** Moved onto the top of the Testing pyramid and learned more about e2e testing! Sat in on a really insightful talk and demo from Paul Jaffre from Cypress about what e2e testing is, why we use it and how Cypress has come around to automate it. I am starting to understand the difference between the various layers of the testing pyramid a bit better but still need to spend some more time implementing TDD when writing tests. I loved the visual feedback of the tests that Cypress provided in e2e, I can definitely see how this is going to be something I use a lot in the future.  
 
 **Code Snippet:**
 ```
+// can you get the header syntax check ✅ 
+describe("h1 text test", () => {
+it("checks h1 tag displays correct text", () => {
+  cy.visit("http://localhost:3000/");
+  cy.get("h1").contains("😈 Plan to take over the world:");
+});
+});
+
+// can you type in the box? ✅ 
+describe("box input test", () => {
+it("input of box div can be changed", () => {
+  cy.visit("http://localhost:3000/");
+  cy.get("input").type("dave").should("have.value", "dave");
+});
+});
 ```
 
 ### Day 38: November 2, 2022
 
-**Today's Progress:** 
+**Today's Progress:** Integration Testing - Supertest! 🦸🏽‍♀️
 
-**Thoughts:**
+**Thoughts:** Today we looked into the final level of the Testing Pyramid to complete the picture - Integration testing! Before today I was unsure of how this really differed from unit testing but now it all makes sense. This is used to automate API testing and can simulate front end requests without needing to constantly run the API platform. The coaches taught us the best way to break down logic stpe by step when running an async get/post/patch/delete test. 
+
+A personal win of mine is that I am really starting to feel comfortable with for loops now! My next goal here is to learn different ways to refactoring for loops to make them easier to read and short in code lines. 
 
 **Code Snippet:**
 ```
+	1. Sends a `GET /users` request to our app using Supertest
+	2. Check the response's HTTP status code
+  3. Checkthe response's body is an object with the structure: 
+			`{ success: true, payload: array }`
+  4. Checks if every item in the `payload` array is an object with the structure: 
+			`{ id: any number, username: any string }`
 ```
 
 ### Day 39: November 3, 2022
 
-**Today's Progress:** 
+**Today's Progress:** Databases and making our own CodeWar! ⚔️
 
-**Thoughts:**
+**Thoughts:** Covered the differences between NoSQL and SQL databases in a really insightful seminar from guest lecturers, Couchbase. We discussed why we need databases, different types of databases and the context in which they can each be useful. Then we moved onto my favourite workshop yet - creating our own code war! This REALLY helped me understanding the red, green, refactor TDD concept better. As well as this, it allowed me to work on my problem-solving skills through doing kata's the other bootcampers created. I was able to work on my writing skills in being able to present a problem which, for the most part, got good feedback in terms of the ask for a Level 8 Kata! 
+
+My biggest challenge today and something I need to be aware of for future progression is the idea of dream big and start small! I found my pair and I would get carried away in the brainstorming stages which hindered us when it came to writing the tests and meant we had to go back and simplify the ask. 
 
 **Code Snippet:**
 ```
+// version 1, our codewar -> Karen is over for dinner! What's her favourite meal? As top tier programmers we keep our friend's favourite meals in an array of objects! Better go do programming things to find the favourite meal!
+
+import { people } from "./friendslist.js";
+
+export function findTheMeal(people) {
+  for (let i = 0; i < people.length; i++)
+    if (people[i].name == "Karen") {
+      findThePeople(people[i].favouritemeal);
+      return people[i].favouritemeal;
+    }
+}
 ```
 
-### Day 40: November 3, 2022
+### Day 40: November 4, 2022 
+
+**Today's Progress:** 💥 Testathon - Hackathon Friday!! 🧪
+
+**Thoughts:** A really good hackathon! We put into practice everything we learnt throughout the week and ran e2e tests in Cypress on a to-do list app, with some integration API tests with supertest/jest. Some things we had to do today were: create a database, connect it via a connection string to the port in .env files, adjust the script tags to connect tests to the .env files, install and import various testing modules, create beforeEach and afterAll hooks to reset the tables and visit the correct URL, using the eq variable in Cypress to target specific elements on a page and so much more! 
+
+The best part about today was being able to help my friends in the bootcamp when they were stuck on certain parts such as connecting the databases or explaining how/why we use eq rather than element attributes when running tests. Explaining it to others helped me to further my understanding on the topic and also just made me feel proud of myself to be able to support others when usually I am the one who is in need of support! 
+
+**Code Snippet:**
+```
+// Integration testing with Supertest
+	// import resetAllTables function
+	import { resetAllTables } from "../db/scripts/helpers.js";
+	// import pool from pg modules
+	import { pool } from "../db/index.js";
+
+	//reset each test table before running
+beforeEach(() => {
+	  // console.log( "Hello I am the computer and I have reset everything for you! RUN NEXT TEST");
+  return resetAllTables();
+});
+
+		// stops the test from running longer than 1 second
+afterAll(() => {
+  return pool.end();
+});
+
+```
+
+### Day 41: November 5, 2022
+
+**Today's Progress:** Saturday - Rest and Relax 🧖🏽‍♀️
+
+**Thoughts:** Well deserved rest day after a very testing week! 😉 I went through my notes and revised everything I learnt on why we test and at what points we use the unit, integration and end to end testing. Ahead of next week, I spent a bit of time looking into React - I am super excited to learn more about this! I watched 'Learn React in 30mins' by WebDevSimplified on YT and downloaded a couple VSCode extentions they recommended to support me during next week! 
+
+Other than that, Saturdays are my mandatory time away from the screen days so I spent the day exploring life outside of code. 
+
+**Code Snippet:**
+```
+// create a function component inside of react and assign it the name of the file it is in
+
+import React from 'react'
+
+export default function react() {
+  return (
+    <div>react</div>
+  )
+}
+```
+
+### Day 42: November 6, 2022
+
+**Today's Progress:** Week 6 Recap Task... Testing ✅
+
+**Thoughts:** Completed a quick recap task consolidating everything we learnt on testing during Week 6. Very much similar to the hackathon task, but this time with a send Tweets page. I'm feeling much more comfortable with Cypress now and was able to implement TDD when writing the integration tests pretty well. I find creating a md plan file the simplest way for me to break down what functionalities I want the page to be able to perform into what tests I need to run. 
+
+I had a slight initial struggle when connecting the database to the documents where the server was listening to the port but nothing was there. I was able to resolve this issue really qucikly after looking back on my notes and realising after connecting the database, the first step is to `run npm db:reset` before running any tests.
+
+**Code Snippet:**
+```
+describe('Input Elements', () => {
+  //Can you access and type the name input box? ✔ 
+  it("Can you type in the Name input?", () =>{
+    cy.get("input").eq(0)
+    .type("testing123")
+    .should("have.value", "testing123")
+  });
+  //Can you access and type the tweet input box?
+  it("Can you type in the Tweet input?", () =>{
+    cy.get("input").eq(1)
+    .type("testing123")
+    .should("have.value", "testing123")
+  });
+});
+```
+
+### Day 43: November 7, 2022
+
+**Today's Progress:** Intro to React!! ⚛️
+
+**Thoughts:** Today we began the basics of React, we looked into what it is, where it's used and why we use it. The videos I watched over the weekend really helped solidify what we were being taught today and the possibilies with React seem so exciting! We touched on writing React in its rawest form with React.element, then moved onto writing in JSX form to simplify and using Babel as a transpiler between different languages. Learnt some of the syntax differences between JS and React and then briefly touched upon 'props' and 'children' in React. 
+
+A lot of new information today that definitely has not all fully sunk in on day 1 but I am really excited for the week ahead and to be diving deeper in to front end again! 😁
+
+**Code Snippet:**
+```
+<div id="root"></div>
+	<script type="text/babel">
+	const rootElement = document.querySelector("#root");
+	const root = ReactDOM.createRoot(rootElement);
+
+	function ListItem(props) {
+		return <li >{props.text}</li>
+	}
+      
+	root.render(
+		[
+		<ListItem text="Milk" />,
+		<ListItem text="Eggs" />,
+		<ListItem text="Flour" />,
+		<ListItem text="Bananas" />,
+		]
+	);
+```
+
+### Day 44: November 8, 2022
 
 **Today's Progress:** 
 
