@@ -966,7 +966,7 @@ describe('Input Elements', () => {
 
 **Today's Progress:** Intro to React!! ⚛️
 
-**Thoughts:** Today we began the basics of React, we looked into what it is, where it's used and why we use it. The videos I watched over the weekend really helped solidify what we were being taught today and the possibilies with React seem so exciting! We touched on writing React in its rawest form with React.element, then moved onto writing in JSX form to simplify and using Babel as a transpiler between different languages. Learnt some of the syntax differences between JS and React and then briefly touched upon 'props' and 'children' in React. 
+**Thoughts:** Today we began the basics of React, we looked into what it is, where it's used and why we use it. The videos I watched over the weekend really helped solidify what we were being taught today and the possibilies with React seem so exciting! We touched on writing React in its rawest form with React.element, then moved onto writing in JSX form to simplify and using Babel as a transpiler between different languages. Learnt some of the syntactic differences between JS and React (camelCase vs UpperCase function names) and then briefly touched upon 'props' and 'children' in React. 
 
 A lot of new information today that definitely has not all fully sunk in on day 1 but I am really excited for the week ahead and to be diving deeper in to front end again! 😁
 
