@@ -947,13 +947,13 @@ I had a slight initial struggle when connecting the database to the documents wh
 **Code Snippet:**
 ```
 describe('Input Elements', () => {
-  //Can you access and type the name input box? ✔ 
+  //Can you access and type the name input box? ✅
   it("Can you type in the Name input?", () =>{
     cy.get("input").eq(0)
     .type("testing123")
     .should("have.value", "testing123")
   });
-  //Can you access and type the tweet input box?
+  //Can you access and type the tweet input box? ✅
   it("Can you type in the Tweet input?", () =>{
     cy.get("input").eq(1)
     .type("testing123")
