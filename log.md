@@ -892,7 +892,7 @@ export function findTheMeal(people) {
 
 **Thoughts:** A really good hackathon! We put into practice everything we learnt throughout the week and ran e2e tests in Cypress on a to-do list app, with some integration API tests with supertest/jest. Some things we had to do today were: create a database, connect it via a connection string to the port in .env files, adjust the script tags to connect tests to the .env files, install and import various testing modules, create beforeEach and afterAll hooks to reset the tables and visit the correct URL, using the eq variable in Cypress to target specific elements on a page and so much more! 
 
-The best part about today was being able to help my friends in the bootcamp when they were stuck on certain parts such as connecting the databases or explaining how/why we use eq rather than element attributes when running tests. Explaining it to others helped me to further my understanding on the topic and also just made me feel proud of myself to be able to support others when usually I am the one who is in need of support! 
+The best part about today was being able to help my friends in the bootcamp when they were stuck on certain parts such as connecting the databases or explaining how/why we use eq rather than element attributes when running tests. Explaining it to others helped me to further my understanding on the topic and also just made me feel proud of myself for being able to support others when usually I am the one who is in need of support! 
 
 **Code Snippet:**
 ```
