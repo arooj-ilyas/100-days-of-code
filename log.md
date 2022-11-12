@@ -1090,6 +1090,84 @@ const [index, setIndex] = useState(0);
 
 ### Day 46: November 10, 2022
 
+**Today's Progress:** Spread and Slice makes things nice, and immutable! 🥪 🔪
+
+**Thoughts:** I have continually come across ...'s and slice() when looking at solutions for CodeWar kata's but never really grasped what they did and how we use them until today. We covered the differences between immutability and mutability and why both can be useful in different scenarios. For the case with React, we mainly want to focus on immutability. I learnt about why we create components in seperate files, how we can utilising array/object methods such as spread, slice and mapping to make our app immitable when working with databases, and how to assign key props to child elements.
+
+I struggled today with grasping how to use Spread and Slice together, but completing several worked examples helped cement this further. I look forward to taking what I leant today and applying it in React in tomorrow's hackathon!
+
+**Code Snippet:**
+
+```
+//Combining Spread and Slice to toggle a completed item in a to do list from true incomplete to complete
+
+export function toggleListItemCompleted(array, index) {
+    // Clone the array into a new array with spread
+    // Slice it at the index to access completed key
+		// Create a function which will change the currect state of complete to the opposite
+		// Reclone and slice it back at index+1
+		// Combine both new arrays with the adjusted completed key's state
+
+    const clonedArray = [...array]
+    // console.log("original" + clonedArray[index].completed)
+    const opposite = !clonedArray[index].completed
+    const newArray = [...array.slice(0, index), {...array[index], completed: opposite}, ...array.slice(index+1)]
+
+    return newArray
+}
+```
+
+### Day 47: November 11, 2022
+
+**Today's Progress:** 💥 Build a To Do List in React - Hackathon Friday!! 🧾 ✅
+
+**Thoughts:** Probably the hardest day in my 100DaysOfCode journey so far. Up until this point I felt as though I was somewhat grasping what states, components, props, keys, children, mapping, immutablity were. But today, when trying to put everything I learnt together, I realised the hard way that that's not the case 😬. I will definitely need to spend some time this weekend revising the fundamentals and will give building a funcitoning app in React another go once I feel comfortable with the basics. My biggest takeaways for my future self today were knowing when to ask for help, take the time to plan and understand the task first, not giving up, be okay with presenting little but understanding a lot as opposed to the opposite, and give back to those around me who help pick me up when I start to feel low.
+
+This journey is a rollercoaster but I am enjoying the ride and learning more about myself along the way!
+
+**Code Snippet:**
+
+```
+function App() {
+	// Create handleClick state for button
+	// set the name of the state and what we want it to do, and what condition we want to start at
+	const [todos, setTodos] = useState([]);
+	const [userInput, setUserInput] = useState("");
+
+	// This grabs what the user writes in the input tab
+	function handleChange(event) {
+		setUserInput(event.target.value);
+	}
+
+	// This spreads the original array and appends the new input from the user (userInput) into the new array
+	function handleAdd() {
+		setTodos([...todos, userInput]);
+		setUserInput("");
+	}
+
+	// This should delete an item from the list
+	// Go into the array which was made when the list was added and clone it
+	// Slice out the text at the index it sits at and at index+1 value, combine these
+	function deleteList(index) {
+		setTodos([...todos.slice(0, index), ...todos.slice(index + 1)]);
+		console.log("delete list called");
+	}
+```
+
+### Day 48: November 12, 2022
+
+**Today's Progress:** Saturday - R & R 🧖🏽‍♀️
+
+**Thoughts:**
+
+**Code Snippet:**
+
+```
+
+```
+
+### Day 48: November 13, 2022
+
 **Today's Progress:**
 
 **Thoughts:**
@@ -1100,7 +1178,7 @@ const [index, setIndex] = useState(0);
 
 ```
 
-### Day 47: November 11, 2022
+### Day 49: November 14, 2022
 
 **Today's Progress:**
 
