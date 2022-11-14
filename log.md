@@ -1158,15 +1158,73 @@ function App() {
 
 **Today's Progress:** Saturday - R & R 🧖🏽‍♀️
 
-**Thoughts:**
+**Thoughts:** After an intense week, I spent the entire day away from writing ANY code!! Only thing I did do on this day was recap over the Week 4 Progress Check we did a couple weeks back which tested our understanding in 3 topics; reading/naming functions, accessing arrays & objects with dot/bracket notation & debugging if statements with syntax errors. At the time I found this task quite difficult but going through it today I was able to work through the problems much more methodically and make better sense of it! Great sign of progress being made so I'm happy 😁
+
+### Day 49: November 13, 2022
+
+**Today's Progress:** Week 6 Recap Task... React (Blog Post) 🥴✅
+
+**Thoughts:** Spent almost the entire day working through this weeks recap task building an app that displays blog posts and has an input bar allows users to add comments that are stored below the blogpost in a list with their initials on the side. Got stuck many times but spent the day on call with some lovely other bootcampers and worked through any errors/confusions as a team when stuck! This helped me SO much to better understand what was going on and avoid feeling overwhemled. Lots learnt today and lots to digest, but overall feeling a bit more confident with some of the basic React components and ready(?) for another week of React next week.
 
 **Code Snippet:**
 
 ```
+// App.js file
 
+return (
+	<div style={{width:"100%", marginLeft:"auto", marginRight:"auto", maxWidth:"400px"}}>
+		<h1>Hello</h1>
+		<BlogPost {...blog}/>
+		<CommentList comments={comments} author={author}></CommentList>
+		<CommentForm
+			type='text'
+			author={author}
+			commentBox={commentBox}
+			handleClick={handleClick}
+			handleCommentChange={handleCommentChange}
+			handleAuthorChange={handleAuthorChange}
+			//handleAdd={(event) => handleAdd(event)}
+		></CommentForm>
+	</div>
+	);
 ```
 
-### Day 48: November 13, 2022
+### Day 50: November 14, 2022
+
+**Today's Progress:** Recap on REST API's & new React hooks - useEffect!
+
+**Thoughts:** Recapped previous weeks REST API content to remind us of the bigger picture after working for an entire week in Front End!
+
+Topics discussed:
+
+- Recap on HTTP methods & CRUD operations
+- Understanding different error codes
+- Anatomy of a request
+- Versions in API and types of versioining
+
+After this, we linked this back to React and discussed useEffect with fetch requests to connect frontend to backend API's. Met my new pair programming buddy for the week and felt much more at grips with the content today. I grasped the purpose of useEffect much quicker than I did with useState last week. Spending time over the weekend solifidying my understanding of hooks over the weekend was likely the reason why.
+
+By the end of day I was able to create an app which generates random pokemon using the ID prop to match it to the URI and display the pokemon's id, name and image URL. I even went on the play around with some in line and importing CSS for the first time in a while. End result = created a super cool hover button from a template I found on w3docs!
+
+**Code Snippet:**
+
+```
+useEffect(() => {
+		async function getPoke() {
+			const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`, {
+				headers: { accept: "application/json" },
+			});
+			const data = await response.json();
+			console.log(data);
+			setPokemon(data.name);
+			console.log(data.sprites.front_default);
+			setPokemonURL(data.sprites.front_default);
+		}
+		getPoke();
+	}, [id]);
+```
+
+### Day 51: November 15, 2022
 
 **Today's Progress:**
 
@@ -1178,7 +1236,19 @@ function App() {
 
 ```
 
-### Day 49: November 14, 2022
+### Day 52: November 16, 2022
+
+**Today's Progress:**
+
+**Thoughts:**
+
+**Code Snippet:**
+
+```
+
+```
+
+### Day 53: November 17, 2022
 
 **Today's Progress:**
 
