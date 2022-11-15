@@ -1226,14 +1226,35 @@ useEffect(() => {
 
 ### Day 51: November 15, 2022
 
-**Today's Progress:**
+**Today's Progress:** Git Branching 🔀 & useReducer 🪝
 
-**Thoughts:**
+**Thoughts:** Back to basics and discovered some other useful functions Git and GitHub provide which will come in handy during next weeks project week! We are familiar with git add/commit/push onto the main branch in turns, however I also realise this is not a likely environement when in the workspace. We covered how to create branches and the power of this when it comes to resolving conflicts much more seamlessly. I need a bit more practice here but as with anything, practice makes perfect 😌
+
+From there, we went on to discover yet ANOTHER hook!!! This time useReducer and how it can be utilised to replace useState in a more maintainable and readable manner when working in complex apps with multiple event listeners and various components. I only just got my head around useState so it will take me some more practice before being able to use useState and useReducer interchangeably!
 
 **Code Snippet:**
 
 ```
+const initialArray = [];
 
+function reducer(state, action) {
+switch (action.type) {
+	case "UPDATED_NAME":
+		return [...state, action.payload];
+	default:
+			eturn state;
+	}
+}
+
+function App() {
+	const [state, dispatch] = useReducer(reducer, initialArray);
+
+// Later in file, Input from the Input component in the function App() return
+<Input
+		addItem={(userInput) =>
+			dispatch({ type: "UPDATED_NAME", payload: userInput })
+		}
+/>
 ```
 
 ### Day 52: November 16, 2022
