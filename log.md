@@ -1162,7 +1162,7 @@ function App() {
 
 ### Day 49: November 13, 2022
 
-**Today's Progress:** Week 6 Recap Task... React (Blog Post) 🥴✅
+**Today's Progress:** Week 7 Recap Task... React (Blog Post) 🥴✅
 
 **Thoughts:** Spent almost the entire day working through this weeks recap task building an app that displays blog posts and has an input bar allows users to add comments that are stored below the blogpost in a list with their initials on the side. Got stuck many times but spent the day on call with some lovely other bootcampers and worked through any errors/confusions as a team when stuck! This helped me SO much to better understand what was going on and avoid feeling overwhemled. Lots learnt today and lots to digest, but overall feeling a bit more confident with some of the basic React components and ready(?) for another week of React next week.
 
@@ -1259,21 +1259,108 @@ function App() {
 
 ### Day 52: November 16, 2022
 
-**Today's Progress:**
+**Today's Progress:** React Testing 🧪
 
-**Thoughts:**
+**Thoughts:** Now that we had a good base understanding of creating components and states in React, we shifted onto Testing. We started by covering why we test and its drawbacks, then did a quick individual pair research task on what CreateReact and React Library Testing is. By the end of the day, I was able to use a React Matcher (getByRole) to write of a test which checked a page loads and displays the correct greeting message! Thoroughly enjoyed revisiting testing and learning more about different React Matchers.
 
 **Code Snippet:**
 
 ```
+import Judgement from "./Judgement.js";
+import { test, expect } from "@jest/globals";
+import { screen, render } from "@testing-library/react";
+
+test("loads and displays greeting", () => {
+	// ARRANGE
+	render(<Judgement name="Alice" />);
+
+	// ACT
+	// Grabs the element that contains this text but is not exact, or the All Hail is not the entire obj
+	const element = screen.getByText("All Hail", { exact: false });
+	expect (element).toBeInDocument();
+
+	// ASSERT
+	// Select the element that contains the message
+	expect(element).toHaveTextContent("All hail Alice, the attentive one!");
 
 ```
 
 ### Day 53: November 17, 2022
 
-**Today's Progress:**
+**Today's Progress:** Last Mindset Session 🧠 & Group Reserach Task on Story Points 👩🏽‍🏫
 
-**Thoughts:**
+**Thoughts:** Today was sadly our last mindset session with Joseph Trudden. I've really enjoyed these as they've made me incredibly more self-aware of my listening, leadership skills, my inner champion & weaknesses. Beyond that, we've learnt how we can each play to our individual strengths when working in teams, voting methods to ensure everyone in the team feels heard and how to compromise.
+
+In today's session, we discussed how the best teams share a common appreciation of culture and acknowledging that every teams goes off balance eventually - this is not a sign of failure but rather, a test to make sure you have a suitable recover plan in place.
+
+The rest of day was spent covering testing in a bit more detail with added event listeners and userEvents, and finished with a group research task where we recapped on AGILE. My team and I gave a 5 min presentation of Story Points; What are they? Why are they better than conventional timeframes and dates? What is an example of a story point?
+
+**Code Snippet:**
+
+```
+// Import test, jest, screen, render, userEvent and the relevant components
+// GOAL #1 -> Want to test that the typing into the input works
+// GOAL #2 -> Want to test that clicking the button works
+
+test("should render an input, () => {
+	// declare mock function
+	const props = {handleNewName: jest.fn()}
+});
+
+//ARRANGE -> render the form
+render(<Form handleNewName={props.handleNewName}/>);
+
+//ACT -> select the input and type into it
+const input = screen.getByRole("textbox");
+userEvent.type(input, "Alice");
+
+//ASSERT -> is the typed value in the input?
+expect(input).toHaveValue("Alice");
+```
+
+### Day 54: November 18, 2022
+
+**Today's Progress:** 💥 React API - Hackathon Friday!! 🌐
+
+**Thoughts:** This hackathon was a bit different to previous ones, with a stronger focus on planning and iterating through ideas to build a basic, just functional MVP. I really enjoyed looking more on the prepping side of things and revisiting the Disney Ideation method today. I used Trello for the first time to break down tasks, prioritise and check off what has been done and what is left to do! It made project managing much more simple and I can already see how it is going to be an incredibly useful tool to utilise in Project Week!
+
+We had a couple issues throughout the day, however my partner and I worked really well to solve majority of them and ask for help when we felt stuck. Good planning meant a larger issue, such as our API chosen not working, were not as big of a deal and were easily resolved without going too off-balance. Great day, we were able to build an MVP we were happy with and even had a bit of time to start working on one of our stretch goals - CSS'ing a nice button - and doing a Agile Retro on what went well, what we learnt and what we might do different next time.
+
+**Code Snippet:**
+
+```
+function App() {
+	const [quotes, setQuotes] = useState([]);
+
+	async function randomQuote() {
+		const response = await fetch("https://api.chucknorris.io/jokes/random", {
+			headers: { accept: "application/JSON" },
+		});
+		const data = await response.json();
+
+		let newArray = [...quotes, data.value];
+		setQuotes(newArray);
+		console.log(quotes);
+	}
+
+	useEffect(() => {
+		randomQuote();
+	}, []);
+```
+
+### Day 55: November 19, 2022
+
+**Today's Progress:** Saturday - R & R 🧖🏽‍♀️
+
+**Thoughts:** With next week being Project Week and feeling quite exhausted from the last 2 weeks, I chose today to not touch my laptop at all! I spend some time with friends and family, went to the gym and for a nice long walk to counter all the hours I have spent sitting at the desk for the last 8 weeks!
+
+My mentor reminded me the value of not getting too carried away and remembering life outside of code, so I chose to pick up some old hobbies today 😄
+
+### Day 56: November 20, 2022
+
+**Today's Progress:** Catchup & Week 9 Recap Task...
+
+**Thoughts:** I fell quite behind on updating my logs this week so spent the first half of the day updating my personal 100 Days of Code log on my Notion and also here. I really enjoy reflecting on what I learnt this week in retro and writing it down for my future-self!
 
 **Code Snippet:**
 
