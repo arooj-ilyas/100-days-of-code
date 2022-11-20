@@ -1307,15 +1307,15 @@ test("should render an input, () => {
   const props = {handleNewName: jest.fn()}
   });
 
-    //ARRANGE -> render the form
-    render(<Form handleNewName={props.handleNewName}/>);
+      //ARRANGE -> render the form
+      render(<Form handleNewName={props.handleNewName}/>);
 
-    //ACT -> select the input and type into it
-    const input = screen.getByRole("textbox");
-    userEvent.type(input, "Alice");
+      //ACT -> select the input and type into it
+      const input = screen.getByRole("textbox");
+      userEvent.type(input, "Alice");
 
-    //ASSERT -> is the typed value in the input?
-    expect(input).toHaveValue("Alice");
+      //ASSERT -> is the typed value in the input?
+      expect(input).toHaveValue("Alice");
 ```
 
 ### Day 54: November 18, 2022
