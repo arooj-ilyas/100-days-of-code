@@ -1379,11 +1379,12 @@ Final day in the bootcamp before breaking until the 2nd of Jan for Christmas hol
 
 I spent a little bit of time reviewing this with my pair but will looking into it in further detail over the break on a personal level to determine what I need to spend more time revising ahead of project month when we start back in January! 😁
 
-```
 Rather than block off the next few days in my 100daysofcode challenge, I have decided it makes more sense to rather pause the challenge here and resume from day 88 after taking some time off to reflect better how I have progressed in 100 days of coding. 🫡
 
+```
 
-21/12/22-28/12/22... OOO 😴
+21/12/22-28/12/22... OOO - #100DaysOfCode Challenged paused ⏸
+
 ```
 
 ### Day 88: December 29, 2022
@@ -1395,6 +1396,12 @@ After a wonderful, refreshing and MUCH needed 7 days off, we go again! 🦸🏽�
 **Thoughts:** Despite initially planning to do much more over the holidays, after logging off on Wednesday 21st December and seeing loved ones around me take time off work for the holidays, I decided to follow suit and take some time off to spend with family. My eyes, back, mind and soul needed it and is thanking me for it now. With the nature of a bootcamp, it is very easy to get carried away and lose focus of the bigger picture. I will admittedly say I did spend some of the last few days feeling guilty for not doing much work but, after looking back on my journey so far, I can acknowledge now that by week 12 I began to really struggle with feeling burnt out. I fell behind on my logs, struggled with motivation to do anything past 5pm and constantly felt tired and half-present. Having this break has taught me that I need to go easier on myself, and the importance of pausing, taking a step back, reflecting and feeling proud.
 
 Hence I spent most of today reflecting on the SoC audit given on day 87 and catching up on my logs, rather than coding. With the new year approaching, I want to start as I mean to go on. I have finally found something I feel truly passionate about and do not want to approach this with my old mindset of 'everything must be done now and everything must be perfect'. The world of tech is one that is always growing and there is ALWAYS going to be so much to learn, I'm never going to know everything and that's okay. After looking back on everything I have learnt so far, there are many things I feel like I still don't quite understand; whilst the old me would feel angry and disappointed in myself for that, I now see it as an exciting opportunity to learn more! The most powerful thing I've learnt about coding, which goes much against my Engineering background, is that we learn best by doing. So, I have made a plan that for the next few days I am going to try to build an app to solidify my understanding of React! Planning begins tomorrow 🤓
+
+```
+
+29/12/22... #100DaysOfCode Challenged Resumed ▶️
+
+```
 
 ### Day 89: December 30, 2022
 
