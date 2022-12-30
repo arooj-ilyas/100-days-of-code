@@ -1358,12 +1358,35 @@ My mentor reminded me the value of not getting too carried away and remembering 
 
 ### Day 56: November 20, 2022
 
-**Today's Progress:** Catchup & Week 9 Recap Task...
+**Today's Progress:** Catchup & Week 8 Recap Task...
 
-**Thoughts:** I fell quite behind on updating my logs this week so spent the first half of the day updating my personal 100 Days of Code log on my Notion and also here. I really enjoy reflecting on what I learnt this week in retro and writing it down for my future-self!
+**Thoughts:** I fell quite behind on updating my logs this week so spent the first half of the day updating my personal 100 Days of Code log on my Notion and also here. I really enjoy reflecting on what I learnt this week in retro and writing it down for my future-self! Next week is the big project week so took it easy this weekend to make sure I am mentally prepared for an exciting and, no doubt, intense week ahead!
 
-**Code Snippet:**
+### Day 57-86: November 20, 2022 - December 20th, 2022
 
-```
+### Day 87: December 21st, 2022
 
-```
+**Today's Progress:** The day before Christmas (holidays)! 🎄🎅🏼🎄❄️
+
+Final day in the bootcamp before breaking until the 2nd of Jan for Christmas holidays! 🥳
+
+**Thoughts:** Today we were given a Notion audit template which breaks down what we learnt throughout each week on the course. It was given as a starting point to set ourselves up for continuous successful learning by building the habit of analysing learning systematically and targeting efforts. The idea was we rate each topic based on:
+
+1. How important you feel it will be for your learning to spend more time practicing with it
+2. How much time you think you’ll need to gain confidence in it in advance of your final project
+
+I spent a little bit of time reviewing this with my pair but will looking into it in further detail over the break on a personal level to determine what I need to spend more time revising ahead of project month when we start back in January! 😁
+
+Rather than block off the next few days in my 100daysofcode challenge, I have decided it makes more sense to rather pause the challenge here and resume from day 88 after taking some time off to reflect better how I have progressed in 100 days of coding. 🫡
+
+## December 21st - 28th, 2022... OOO 😴
+
+### Day 88: December 28th, 2022
+
+**Today's Progress:** Dusted off the computer and we go again! 🧹
+
+After a wonderful, refreshing and MUCH needed 7 days off, we go again! 🦸🏽‍♀️
+
+**Thoughts:** Despite initially planning to do much more over the holidays, after logging off on Wednesday 21st December and seeing loved ones around me take time off work for the holidays, I decided to follow suit and take some time off to spend with family. My eyes, back, mind and soul needed it and is thanking me for it now. With the nature of a bootcamp, it is very easy to get carried away and lose focus of the bigger picture. I will admittedly say I did spend some of the last few days feeling guilty for not doing much work but, after looking back on my journey so far, I can acknowledge now that by week 12 I began to really struggle with feeling burnt out. I fell behind on my logs, struggled with motivation to do anything past 5pm and constantly felt tired and half-present. Having this break has taught me that I need to go easier on myself, and the importance of pausing, taking a step back, reflecting and feeling proud.
+
+Hence I spent most of today reflecting on the SoC audit given on day 87 and catching up on my logs, rather than coding. With the new year approaching, I want to start as I mean to go on. I have finally found something I feel truly passionate about and do not want to approach this with my old mindset of 'everything must be done now and everything must be perfect'. The world of tech is one that is always growing and there is ALWAYS going to be so much to learn, I'm never going to know everything and that's okay. After looking back on everything I have learnt so far, there are many things I feel like I still don't quite understand; whilst the old me would feel angry and disappointed in myself for that, I now see it as an exciting opportunity to learn more! The most powerful thing I've learnt about coding, which goes much against my Engineering background, is that we learn best by doing. So, I have made a plan that for the next few days I am going to try to build an app to solidify my understanding of React! Planning begins tomorrow 🤓
