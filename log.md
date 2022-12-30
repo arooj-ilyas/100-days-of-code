@@ -1381,7 +1381,9 @@ I spent a little bit of time reviewing this with my pair but will looking into i
 
 Rather than block off the next few days in my 100daysofcode challenge, I have decided it makes more sense to rather pause the challenge here and resume from day 88 after taking some time off to reflect better how I have progressed in 100 days of coding. 🫡
 
-#### 21/12/22-28/12/22... OOO 😴
+```
+21/12/22-28/12/22... OOO 😴
+```
 
 ### Day 88: December 29, 2022
 
