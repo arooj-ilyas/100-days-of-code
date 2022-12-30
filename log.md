@@ -1387,7 +1387,7 @@ Rather than block off the next few days in my 100daysofcode challenge, I have de
 
 ### Day 88: December 29, 2022
 
-**Today's Progress:** Dusted off the computer and we go again! 🧹
+**Today's Progress:** Dusted off the ol' computer! 🧹
 
 After a wonderful, refreshing and MUCH needed 7 days off, we go again! 🦸🏽‍♀️
 
