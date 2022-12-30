@@ -1383,7 +1383,7 @@ Rather than block off the next few days in my 100daysofcode challenge, I have de
 
 ```
 
-21/12/22-28/12/22... OOO - #100DaysOfCode Challenged paused ⏸
+21/12/22-28/12/22... #100DaysOfCode Challenged paused ⏸
 
 ```
 
@@ -1399,7 +1399,7 @@ Hence I spent most of today reflecting on the SoC audit given on day 87 and catc
 
 ```
 
-29/12/22... #100DaysOfCode Challenged Resumed ▶️
+29/12/22... #100DaysOfCode Challenged Resumed ⏯
 
 ```
 
