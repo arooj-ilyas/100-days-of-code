@@ -1379,9 +1379,10 @@ Final day in the bootcamp before breaking until the 2nd of Jan for Christmas hol
 
 I spent a little bit of time reviewing this with my pair but will looking into it in further detail over the break on a personal level to determine what I need to spend more time revising ahead of project month when we start back in January! 😁
 
+```
 Rather than block off the next few days in my 100daysofcode challenge, I have decided it makes more sense to rather pause the challenge here and resume from day 88 after taking some time off to reflect better how I have progressed in 100 days of coding. 🫡
 
-```
+
 21/12/22-28/12/22... OOO 😴
 ```
 
