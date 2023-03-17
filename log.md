@@ -1437,10 +1437,10 @@ Tomorrow, School of Code commenses again and this time we will be meeting with o
 **Thoughts:** The 4 week project commenses! Today we met our teams, got to know one another and made a team manifesto. We were given a brief to "create a solution to a real life problem". After reading the brief, we started with brainstorming problems that we have all encountered rather than ideas of apps. From there, we moved onto solutions to the problems, then rated the product market fit, feasability, usability and viability out of 5 for each idea. We had to use dot voting throughout the day to come to a decision on team name and which ideas to take through to dreamer, realist and critic room. We ended up with a tie between two ideas we all liked, so we took them both through to disney ideation.
 
 **Progress:**
-Created a Google Docs where we all contributed to create a team manifesto -> https://docs.google.com/document/d/173oe0PoPwspKAp0uZScBkR_JnKM-0UhHes3qHhXdSqI/edit
 
-Created a Trello board for the week -> https://trello.com/b/1ynRQExY/week-1-sprint-1-planning
-Decided that the best way to break down the sprints would be to complete weekly sprints, and each week create a new Trello board with the week's backlog, goals, stretch goals and assign members to each ticket. This would also be a mutual space for the team where we can do daily standups and retros to reflect on the day, how many goals we reach and if we are ahead or behind schedule.
+- Created a Google Docs where we all contributed to create a team manifesto ➡️ https://docs.google.com/document/d/173oe0PoPwspKAp0uZScBkR_JnKM-0UhHes3qHhXdSqI/edit
+- Created a Trello board for the week ➡️ https://trello.com/b/1ynRQExY/week-1-sprint-1-planning
+  Decided that the best way to break down the sprints would be to complete weekly sprints, and each week create a new Trello board with the week's backlog, goals, stretch goals and assign members to each ticket. This would also be a mutual space for the team where we can do daily standups and retros to reflect on the day, how many goals we reach and if we are ahead or behind schedule.
 
 ![](2023-03-17-17-40-28.png)
 
@@ -1448,7 +1448,15 @@ Decided that the best way to break down the sprints would be to complete weekly 
 
 **Today's Progress:** Team FatArrowFaction - Ideation, Wireframing, Planning🤩
 
-**Thoughts:**
+**Thoughts:** Today we moved into the Disney Ideation room with two ideas - one being an app to monitor expired foods, and the second being a way to compare postage prices online through all existing postal services. In the disney rooms, we took each idea through the dreamer, realist and critic room and quickly came to the decision that the food expiry notification app was the one for us! We felt way more inspired by this idea and could see a real world audience for us to reach with it.
+
+From here, we:
+
+- Dinished up the user journey stories for research and the low-fi wireframes
+- Decided what we wanted our MVP to include
+- Started exploring what tech stack to use
+- Made the decision to opt for react native as this kind of app would not make sense in desktop version
+- Created a Miro board for the team to collaborate and to track our daily progress: https://miro.com/app/board/uXjVP1sSrDA=/
 
 ### Day 96: January 5, 2023
 
