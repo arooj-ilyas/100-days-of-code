@@ -1409,7 +1409,7 @@ Hence I spent most of today reflecting on the SoC audit given on day 87 and catc
 
 **Thoughts:** I spent some time today looking into creating a new side project, one I had a use-case for and one which would help me to broaden my understanding of the basics in React. At this point, I am very familiar with working in pairs and groups to distribute workload and work on various areas of creating a website but I am yet to create an entire project start to finish by myself. I think doing this will really help me to solidify my understand of react concepts and build my understanding of 'Full-Stack'. I watched some tutorials and articles of good first apps to build for new developers and a budgeting app seemed to be one which cropped up multiple times. Seeing as this is something I could genuinely use myself, I think I am going to try to build this!
 
-### Day 90 & 91: December 30-31, 2022
+### Day 90: December 31, 2022
 
 **Today's Progress:** Wireframing and Component Tree Diagrams ✏️
 
@@ -1417,7 +1417,7 @@ Hence I spent most of today reflecting on the SoC audit given on day 87 and catc
 
 ![](2023-03-17-17-12-12.png)
 
-### Day 92: January 1, 2023
+### Day 92 & 93: January 1 & 2, 2023
 
 **Today's Progress:** Happy New Year! 🥳
 
@@ -1429,3 +1429,47 @@ Hence I spent most of today reflecting on the SoC audit given on day 87 and catc
 - Continue to track my journey and reflect
 
 Tomorrow, School of Code commenses again and this time we will be meeting with our 4 week project groups! I am super excited, kind of nervous and feeling creative with tons of potential ideas to bring to the group 🤩
+
+### Day 94: January 3, 2023
+
+**Today's Progress:** Meet the Teams 🤝
+
+**Thoughts:** The 4 week project commenses! Today we met our teams, got to know one another and made a team manifesto. We were given a brief to "create a solution to a real life problem". After reading the brief, we started with brainstorming problems that we have all encountered rather than ideas of apps. From there, we moved onto solutions to the problems, then rated the product market fit, feasability, usability and viability out of 5 for each idea. We had to use dot voting throughout the day to come to a decision on team name and which ideas to take through to dreamer, realist and critic room. We ended up with a tie between two ideas we all liked, so we took them both through to disney ideation.
+
+**Progress:**
+Created a Google Docs where we all contributed to create a team manifesto -> https://docs.google.com/document/d/173oe0PoPwspKAp0uZScBkR_JnKM-0UhHes3qHhXdSqI/edit
+
+Created a Trello board for the week -> https://trello.com/b/1ynRQExY/week-1-sprint-1-planning
+Decided that the best way to break down the sprints would be to complete weekly sprints, and each week create a new Trello board with the week's backlog, goals, stretch goals and assign members to each ticket. This would also be a mutual space for the team where we can do daily standups and retros to reflect on the day, how many goals we reach and if we are ahead or behind schedule.
+
+![](2023-03-17-17-40-28.png)
+
+### Day 95: January 4, 2023
+
+**Today's Progress:** Team FatArrowFaction - Ideation, Wireframing, Planning🤩
+
+**Thoughts:**
+
+### Day 96: January 5, 2023
+
+**Today's Progress:** Tech Stack Debates 🤔
+
+**Thoughts:**
+
+### Day 97: January 6, 2023
+
+**Today's Progress:** Finalised Idea & Group Presentations
+
+**Thoughts:**
+
+### Day 98 & 99: January 7 & 8, 2023
+
+**Today's Progress:** Week 1/4, in the bag ✅
+
+**Thoughts:**
+
+### Day 💯: January 9, 2023
+
+**Today's Progress:** We did it!!!!
+
+**Thoughts:**
