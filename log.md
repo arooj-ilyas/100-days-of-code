@@ -1416,3 +1416,16 @@ Hence I spent most of today reflecting on the SoC audit given on day 87 and catc
 **Thoughts:** Spent some time working on creating a wireframe for how I want the budget tracket to look. Going for a simple look with reusable components so I can really wrap my head around components and props. I would also like to add some condiitional CSS rendering so that overbudget triggers a red background and text prompt to caution the user. I read a lot on visual aids and app UI colour theory, how different fonts, colours and text layouts can trigger different emotions in the user. I drew up the wireframes in Excalidraw first in low fidelity and breaking it down into components. I am now working on converting them into a high fidelity wireframe in Figma!
 
 ![](2023-03-17-17-12-12.png)
+
+### Day 92: January 1, 2023
+
+**Today's Progress:** Happy New Year! 🥳
+
+**Thoughts:** Spent the day reflecting on my journey over the past year and that to come! Made a list of goals for the new year, many of which were career related, some including:
+
+- Finish the School of Code Bootcamp and be proud of myself!!
+- Land my first role in Tech!
+- Work for a good company, make an impact and work towards creating something that makes the world better!
+- Continue to track my journey and reflect
+
+Tomorrow, School of Code commenses again and this time we will be meeting with our 4 week project groups! I am super excited, kind of nervous and feeling creative with tons of potential ideas to bring to the group 🤩
