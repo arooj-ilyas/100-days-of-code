@@ -1383,7 +1383,7 @@ Rather than block off the next few days in my 100daysofcode challenge, I have de
 
 ```
 
-// 21/12/22-28/12/22... #100DaysOfCode Challenged paused ⏸
+// 21/12/22-28/12/22... #100DaysOfCode Challenge PAUSED ⏸
 
 ```
 
@@ -1399,10 +1399,19 @@ Hence I spent most of today reflecting on the SoC audit given on day 87 and catc
 
 ```
 
-// 29/12/22... #100DaysOfCode Challenged Resumed ⏯
+// 29/12/22... #100DaysOfCode Challenge PLAY ⏯
 
 ```
 
 ### Day 89: December 30, 2022
 
 **Today's Progress:** ⚛️ Planning a Personal Project in React ➡️ Budget Tracking App 💰💸
+
+**Thoughts:** I spent some time today looking into creating a new side project, one I had a use-case for and one which would help me to broaden my understanding of the basics in React. At this point, I am very familiar with working in pairs and groups to distribute workload and work on various areas of creating a website but I am yet to create an entire project start to finish by myself. I think doing this will really help me to solidify my understand of react concepts and build my understanding of 'Full-Stack'. I watched some tutorials and articles of good first apps to build for new developers and a budgeting app seemed to be one which cropped up multiple times. Seeing as this is something I could genuinely use myself, I think I am going to try to build this!
+
+```
+
+### Day 90: December 30, 2022
+
+**Today's Progress:** ⚛️ Wireframing and Component Tree Diagrams ✏️
+```
