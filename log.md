@@ -1411,7 +1411,11 @@ Hence I spent most of today reflecting on the SoC audit given on day 87 and catc
 
 ```
 
-### Day 90: December 30, 2022
+### Day 90 & 91: December 30-31, 2022
 
 **Today's Progress:** ⚛️ Wireframing and Component Tree Diagrams ✏️
+
+**Thoughts:**  Spent some time working on creating a wireframe for how I want the budget tracket to look. Going for a simple look with reusable components so I can really wrap my head around components and props. I would also like to add some condiitional CSS rendering so that overbudget triggers a red background and text prompt to caution the user. I read a lot on visual aids and app UI colour theory, how different fonts, colours and text layouts can trigger different emotions in the user. I drew up the wireframes in Excalidraw first in low fidelity and breaking it down into components. I am now working on converting them into a high fidelity wireframe in Figma!
+
+Screenshot 2023-03-13 at 16.33.11.png
 ```
