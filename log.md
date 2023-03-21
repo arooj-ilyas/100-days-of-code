@@ -1453,9 +1453,8 @@ Tomorrow, School of Code commenses again and this time we will be meeting with o
 
 **Thoughts:** Today we moved into the Disney Ideation room with two ideas - one being an app to monitor expired foods, and the second being a way to compare postage prices online through all existing postal services. In the disney rooms, we took each idea through the dreamer, realist and critic room and quickly came to the decision that the food expiry notification app was the one for us! We felt way more inspired by this idea and could see a real world audience for us to reach with it.
 
-From here, we:
+From here, we: - Dinished up the user journey stories for research and the low-fi wireframes
 
-- Dinished up the user journey stories for research and the low-fi wireframes
 - Decided what we wanted our MVP to include
 - Started exploring what tech stack to use
 - Made the decision to opt for react native as this kind of app would not make sense in desktop version
@@ -1465,13 +1464,22 @@ From here, we:
 
 **Today's Progress:** Tech Stack Debates 🤔
 
-**Thoughts:**
+**Thoughts:** After finalising on an idea, here we began to look into tech stack and what our options were. We knew these four week were the perfect time to test our limits, set optimistic goals with the support network of one another and the School of Code coaches, and broaden our horizons whilst also solidifying our understanding of everything we have learnt thus far. With an idea of wanting to create a mobile first app, given the nature of a food expiry notification app not likely being a desktop app, we looked into options.
+
+Some of which included: \* A desktop app
+
+- A progressive mobile-first desktop app (similar to what my week 1 project was) with multiple pages
+- A entirely mobile app
+
+Knowing these were our options, we began to look into tech stacks including Next.js, TailwindCSS and React Native. We knew we wanted to go beyond just a single page CRA! We spent the day doing research into React Native, how easy it would be to learn from scratch within 4 weeks and alternative options.
 
 ### Day 97: January 6, 2023
 
-**Today's Progress:** Finalised Idea & Group Presentations
+**Today's Progress:** React Native! 💪🏼
 
-**Thoughts:**
+**Thoughts:** We made the brave decision at this point to finalise on creating a mobile app using React Native, something entirely new to us to learn and build a functioining app from within 4 weeks. Ambitious, I know. But, before finalising on this decision today we all took the time to create a proof of concept app to see how easily we could grasp React Native. Despite a few bumps in the road and new tech terms to get used to, we muddled our way through as a team to create a very basic app which accesses a camera library using an image picker API! We felt confident that we could face this challenge together as a team.
+
+We set out some ground rules and 15-15-15 rules to make sure we remain productive and help each other through every step. We made the decision to swap around people each day and try our best to work togerher in all aspects of the app as this was a new concept for us all! There was also a mutual agreement that learning React Native would be a hard enough challenge on its own, so we opted for JavaScript and CSS stylesheets to solidfy our understanding of everything we had learnt up until this point. We are so excited for the road ahead and can't wait to create an EPIC React Native app!!
 
 ### Day 98 & 99: January 7 & 8, 2023
 
