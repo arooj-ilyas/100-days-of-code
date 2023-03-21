@@ -1479,13 +1479,18 @@ Knowing these were our options, we began to look into tech stacks including Next
 
 **Thoughts:** We made the brave decision at this point to finalise on creating a mobile app using React Native, something entirely new to us to learn and build a functioining app from within 4 weeks. Ambitious, I know. But, before finalising on this decision today we all took the time to create a proof of concept app to see how easily we could grasp React Native. Despite a few bumps in the road and new tech terms to get used to, we muddled our way through as a team to create a very basic app which accesses a camera library using an image picker API! We felt confident that we could face this challenge together as a team.
 
-We set out some ground rules and 15-15-15 rules to make sure we remain productive and help each other through every step. We made the decision to swap around people each day and try our best to work togerher in all aspects of the app as this was a new concept for us all! There was also a mutual agreement that learning React Native would be a hard enough challenge on its own, so we opted for JavaScript and CSS stylesheets to solidfy our understanding of everything we had learnt up until this point. We are so excited for the road ahead and can't wait to create an EPIC React Native app!!
+We set out some ground rules and 15-15-15 rules to make sure we remain productive and help each other through every step. We made the decision to swap around people each day and try our best to work togerher in all aspects of the app as this was a new concept for us all! There was also a mutual agreement that learning React Native would be a hard enough challenge on its own, so we opted for JavaScript and CSS stylesheets to solidfy our understanding of everything we had learnt up until this point. We are so excited for the road ahead and can't wait to create an EPIC React Native app!! 💪🏼🚀
 
 ### Day 98 & 99: January 7 & 8, 2023
 
 **Today's Progress:** Week 1/4, in the bag ✅
 
-**Thoughts:**
+**Thoughts:** I spent the weekend planning the next 3 weeks ahead and creating a game plan for how we are going to take on this React Native Challenge. After setting up the Trello board for Sprint 2, I looked further into creating Navbar's in React Native. This was something we struggled on as a team in the Proof of Concept app purely due to time contraints so I wanted to spend my weekend looking further into this and reporting back to the team on Monday.
+
+I watched some tutorials on how to create a navbar in react native
+[](https://www.youtube.com/watch?v=AnjyzruZ36E)
+
+While it does feel like we are being ambitious, I am genuinely excited and curious for the journey ahead. I just want to learn and I look forward to challenging myself. It can be easy to feel overwhelmed but so important to remember this is not a race, we are not competing. This is my journey and I am part of an amazing team, we will take things one step at a time and make sure everyone is involved and remember to stay proud of celebrate every team & personal accomplishement along the way! 🥰
 
 ### Day 💯: January 9, 2023
 
