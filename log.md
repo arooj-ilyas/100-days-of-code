@@ -1488,7 +1488,8 @@ We set out some ground rules and 15-15-15 rules to make sure we remain productiv
 **Thoughts:** I spent the weekend planning the next 3 weeks ahead and creating a game plan for how we are going to take on this React Native Challenge. After setting up the Trello board for Sprint 2, I looked further into creating Navbar's in React Native. This was something we struggled on as a team in the Proof of Concept app purely due to time contraints so I wanted to spend my weekend looking further into this and reporting back to the team on Monday.
 
 I watched some tutorials on how to create a navbar in react native
-[](https://www.youtube.com/watch?v=AnjyzruZ36E)
+
+- LINK: https://www.youtube.com/watch?v=AnjyzruZ36E
 
 While it does feel like we are being ambitious, I am genuinely excited and curious for the journey ahead. I just want to learn and I look forward to challenging myself. It can be easy to feel overwhelmed but so important to remember this is not a race, we are not competing. This is my journey and I am part of an amazing team, we will take things one step at a time and make sure everyone is involved and remember to stay proud of celebrate every team & personal accomplishement along the way! 🥰
 
@@ -1499,4 +1500,5 @@ While it does feel like we are being ambitious, I am genuinely excited and curio
 **Thoughts:** Back in September I was chosen out of 1000’s of applications to embark on a new journey. I had never understood a line of JavaScript in my life, no idea how HTML or React work and, to be honest, had a very vague idea of what a ‘developer’ actually was. 16 weeks later, I now proudly leave School Of Code with the title of a Full-Stack Developer. 👩🏽‍💻
 
 Read the rest of my LinkedIn post here where I reflect on everything I have learnt up until this point, my achievements and accredit all the beautiful people who have stood by my side along this jounrey!
-[] https://www.linkedin.com/posts/arooj-ilyas_learntocode-schoolofcode-schoolofcode-activity-7025525502467596288-RsAt?utm_source=share&utm_medium=member_desktop
+
+- LINK https://www.linkedin.com/posts/arooj-ilyas_learntocode-schoolofcode-schoolofcode-activity-7025525502467596288-RsAt?utm_source=share&utm_medium=member_desktop
