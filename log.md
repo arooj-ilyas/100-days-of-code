@@ -1494,6 +1494,9 @@ While it does feel like we are being ambitious, I am genuinely excited and curio
 
 ### Day 💯: January 9, 2023
 
-**Today's Progress:** We did it!!!!
+**Today's Progress:** We did it!!!! Heres to the next 100 🚀🥂
 
-**Thoughts:**
+**Thoughts:** Back in September I was chosen out of 1000’s of applications to embark on a new journey. I had never understood a line of JavaScript in my life, no idea how HTML or React work and, to be honest, had a very vague idea of what a ‘developer’ actually was. 16 weeks later, I now proudly leave School Of Code with the title of a Full-Stack Developer. 👩🏽‍💻
+
+Read the rest of my LinkedIn post here where I reflect on everything I have learnt up until this point, my achievements and accredit all the beautiful people who have stood by my side along this jounrey!
+[] https://www.linkedin.com/posts/arooj-ilyas_learntocode-schoolofcode-schoolofcode-activity-7025525502467596288-RsAt?utm_source=share&utm_medium=member_desktop
